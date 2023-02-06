@@ -1,0 +1,60 @@
+  #mid{
+    display: flex;
+    justify-content: space-evenly;
+    margin: auto;
+    margin-top: 135px;
+  }
+ 
+  #mid img{
+    width:230px;
+    height: 220px;
+    border-radius: 50%;
+    transition: all 0.5s ease-in-out;
+  }
+  #mid img:hover{
+    width:250px;
+    height: 250px;
+
+  }
+  #mid>div{
+    font-family: 'Bahnschrift SemiBold';
+    padding: 1%;
+  }
+  #mid>div>h2{
+    font-size: 25px;
+  }
+  #mid>div>h1{
+    font-size:60px ;
+    margin-top: -11px;
+  }
+  #mid>div>h3{
+    font-size:35px ;
+    margin-top: -30px;
+  }
+  #mid>div>a>button{
+    background-color: red;
+    padding: 8px;
+    color: white;
+    border: 0ch;
+    font-size: large;
+    border-radius: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+  #mid>div>a>button{
+    color: white;
+    text-decoration: none;
+    
+  }
+  #mid>div>a>button:hover{
+    padding: 8px 9px 8px 9px;
+    font-size: 20px;
+    color: red;
+    background-color: whitesmoke;
+    color: red;
+    border: 2px solid red;
+
+  }
+  #mid>div>button>a:hover{
+    color: red;
+  }
+ 

@@ -1,0 +1,111 @@
+#heading {
+  margin: auto;
+  margin-top: 50px;
+  text-align: center;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#mid {
+  display: flex;
+  margin-top: 40px;
+  justify-content: space-evenly;
+  margin-bottom: 25px;
+}
+
+#mid>div {
+  width: 500px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#mid>div>img {
+  width: 260px;
+  height: 260px;
+  transition: all 0.5s ease-in-out;
+
+}
+
+#mid>div>img:nth-child(2) {
+  width: 450px;
+  height: 350px;
+
+
+}
+
+#mid>div>img:nth-child(1):hover {
+  width: 280px;
+  height: 280px;
+
+}
+
+#avt {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px;
+  margin-bottom: -15px;
+
+}
+#aboutme>h6{
+ font-size: 15px;
+}
+
+#aboutme>h2 {
+  color: orange;
+}
+
+#aboutme>h6>a {
+  text-decoration: none;
+  color: black;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+#aboutme>h6>a:hover {
+  color: teal;
+}
+
+#foot {
+  text-decoration: none;
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding: 0.4px;
+  font-size: 14px;
+  width: 100%;
+
+}
+
+@media screen and (min-width:0px) and (max-width:480px) {
+  *{
+    padding: 0px;
+  }
+  #avt>img:nth-child(2){
+    display: none;
+  }
+  #mid>div {
+    padding: 0px;
+    width: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+  #mid{
+    padding: 0px;
+    width: 200px;
+    display: block;
+    margin-left: 0px;
+  }
+  #avt {
+    padding: 0px;
+    width: 10%;
+    justify-content: center;
+
+  }
+  #aboutme>h6{
+    font-size: 15px;
+   }
+  #aboutme{
+    padding: 0px; 
+    width: 10%;
+    margin-left: 0px;
+  }
+
+}
