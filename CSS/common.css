@@ -1,9 +1,10 @@
 body {
   /* background-color:#121d30; */
+  margin: 0;
   background-color: rgb(234, 246, 249);
 }
 
-#navbar {
+#nav-menu {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -22,7 +23,7 @@ body {
   text-decoration: none;
 }
 
-#navbar>div:nth-child(2)>a {
+#nav-menu>div:nth-child(2)>a {
   text-decoration: none;
   color: black;
   padding: 12px;
@@ -33,7 +34,7 @@ body {
   transition: all 0.3s ease-in-out;
 }
 
-#navbar>div:nth-child(2)>a:hover {
+#nav-menu>div:nth-child(2)>a:hover {
   color: white;
   background-color: red;
   /* padding: 12px; */
@@ -45,13 +46,13 @@ body {
   border-radius: 8px;
 }
 
-#navbar>div:nth-child(1) {
+#nav-menu>div:nth-child(1) {
   padding: 0px 20px 0px 20px;
   font-size: 40px;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif, 'Arial Narrow', Arial, sans-serif;
 }
 
-#navbar>div:nth-child(2) {
+#nav-menu>div:nth-child(2) {
   display: flex;
   justify-content: space-between;
 }
@@ -101,19 +102,394 @@ body {
 .theme {
   display: none;
 }
+.nav-link{
+  text-align: center;
+}
+/* ***********************HOME CSS*******************/
+#home{
+  height: 100%;
+}
+.home{
+  display: flex;
+  justify-content: space-evenly;
+  margin: auto;
+  margin-top: 135px;
+}
+
+.home-img{
+  width:230px;
+  height: 220px;
+  border-radius: 50%;
+  transition: all 0.5s ease-in-out;
+}
+.home-img:hover{
+  width:250px;
+  height: 250px;
+
+}
+.home>div{
+  font-family: 'Bahnschrift SemiBold';
+  padding: 1%;
+}
+.home>div>h2{
+  font-size: 25px;
+}
+.home>div>h1{
+  font-size:60px ;
+  margin-top: -11px;
+}
+.home>div>h3{
+  font-size:35px ;
+  margin-top: -30px;
+}
+.home>div>a>button{
+  background-color: red;
+  padding: 8px;
+  color: white;
+  border: 0ch;
+  font-size: large;
+  border-radius: 10px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.home>div>a>button{
+  color: white;
+  text-decoration: none;
+  
+}
+.home>div>a>button:hover{
+  padding: 8px 9px 8px 9px;
+  font-size: 20px;
+  color: red;
+  background-color: whitesmoke;
+  color: red;
+  border: 2px solid red;
+
+}
+.home>div>button>a:hover{
+  color: red;
+}
+
+
+/********************HOME CSS END*******************/
+
+
+/* *******************ABOUT CSS*****************/
+#heading {
+  margin: auto;
+  margin-top: 50px;
+  text-align: center;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#about_mid {
+  display: flex;
+  margin-top: 40px;
+  justify-content: space-evenly;
+  margin-bottom: 25px;
+}
+
+#about_mid>div {
+  width: 500px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#about_mid>div>img {
+  width: 260px;
+  height: 260px;
+  transition: all 0.5s ease-in-out;
+
+}
+
+#about_mid>div>img:nth-child(2) {
+  width: 450px;
+  height: 350px;
+
+
+}
+
+#about_mid>div>img:nth-child(1):hover {
+  width: 280px;
+  height: 280px;
+
+}
+
+#avt {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px;
+  margin-bottom: -15px;
+
+}
+#aboutme>h6{
+ font-size: 15px;
+}
+
+#aboutme>h2 {
+  color: orange;
+}
+
+#aboutme>h6>a {
+  text-decoration: none;
+  color: black;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+#aboutme>h6>a:hover {
+  color: teal;
+}
+/* *******************ABOUT CSS END*********************/
+
+/*******************SKILLS*********************/
+.skills-card {
+  margin: auto;
+  margin-top: 100px;
+  width: 80%;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-template-rows: auto;
+  gap: 30px;
+  margin-bottom: 120px;
+}
+
+.skills-card p {
+  font-size: 13x;
+}
+
+.skills-card>div {
+  text-align: center;
+  background-color: snow;
+  padding: 20px 0 0 0;
+  border-radius: 20px;
+}
+
+.skills-card>div:hover {
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+  background-color: white;
+  transition: 0.4s;
+}
+
+.skills-card>div>img {
+  width: 90px;
+  height: 90px;
+}
+
+/*******************SKILLS ENDS*********************/
+
+/**************************PROJECT********************/
+#mid_projects {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: auto;
+  gap: 30px;
+  width: 85%;
+  margin: auto;
+  margin-top: 50px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  margin-bottom: 125px;
+}
+
+#mid_projects>div {
+  background-color: white;
+  border-radius: 10px;
+  text-align: center;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+  height: auto;
+  padding: 8px;
+
+}
+#mid_projects>div>div:nth-child(2){
+  padding: 10px;
+  height: 200px;
+}
+
+#mid_projects>div:hover {
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+#mid_projects>div>div>img {
+  width: 100%;
+  height: 210px;
+  border-radius: 5px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+
+#des {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 14px;
+}
+
+#mid_projects>div>a:hover {
+  font-size: 20px;
+  color: red;
+}
+
+.techred{
+  font-size: 15px;
+  color: rgb(245, 21, 21);
+  font-weight: 700
+}
+.techs{
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: 14px;
+  font-weight: 200;
+  text-align: left;
+  text-align: justify;
+}
+#mid_projects>div>div:nth-child(3){
+  width: 70%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: auto;
+  margin-bottom: 10px;
+}
+
+#mid_projects>div>div:nth-child(3)>a:nth-child(1)>button{
+  border: 0cm;
+  color: white;
+  padding: 7px;
+  border-radius: 3px;
+ background-color: teal;
+}
+#mid_projects>div>div:nth-child(3)>a:nth-child(2)>button{
+  border: 0cm;
+  color: white;
+  padding: 7px;
+  border-radius: 3px;
+ background-color: rgb(18, 18, 18);
+}
+/* **************************PROJECT END************* *
+
+
+/* ******************CONTACT ********************** */
+#mid_contact {
+  display: flex;
+  justify-content: space-between;
+  width: 95%;
+  margin: auto;
+  margin-top: 50px;
+
+
+}
+
+#input {
+  width: 500px
+}
+
+#mid_contact img {
+  width: 90%;
+  height: 95%;
+
+}
+
+#mid_contact>div {
+  padding: 10px;
+}
+
+#buttons {
+  display: flex;
+  justify-content: space-between;
+  padding: 5px;
+
+
+}
+
+#buttons>a>button {
+  color: white;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  border: 0ch;
+  padding: 7px 12px 7px 12px;
+  border-radius: 3px;
+  font-size: 16px;
+
+}
+
+#buttons>a:nth-child(1)>button {
+  background-color: rgb(32, 167, 220);
+}
+
+#buttons>a:nth-child(1)>button:hover {
+  background-color: rgb(123, 145, 234);
+  transition: 0.2s ease-in-out;
+
+}
+
+#buttons>a:nth-child(2)>button {
+  background-color: black
+}
+
+#buttons>a:nth-child(2)>button:hover {
+  background-color: brown;
+  transition: 0.2s ease-in-out;
+}
+
+#buttons>a:nth-child(3)>button {
+  background-color: red;
+}
+
+#buttons>a:nth-child(3)>button:hover {
+  background-color: rgb(254, 48, 116);
+  transition: 0.2s ease-in-out;
+}
+
+#form {
+  margin: auto;
+
+}
+
+#form>form>input {
+  margin: auto;
+  width: 93%;
+  border-radius: 5px;
+  border: 0ch;
+  padding: 10px;
+  margin-top: 30px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 16px;
+  box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+}
+
+#form>form>input:nth-child(4) {
+  background-color: red;
+  width: 98%;
+  color: white;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+#form>form>input:nth-child(4):hover {
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+/* *******************CONTACT END****************** */
+
+/* ******FOOTER*********** */
+#foot {
+  text-decoration: none;
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding: 0.05px 0px 0.05px 0px;
+  font-size: 14px;
+  margin: auto;
+  width: 100%;
+  margin-bottom: 0;
+}
 
 /* ////media Query */
 
 @media screen and (min-width:0px) and (max-width:480px) {
   #social {
-    
-    top: 250px;
+   top: 250px;
   }
+
   #social>a:hover {
     display: none;
   }
 
-  #navbar>div:nth-child(1){
+  #nav-menu>div:nth-child(1) {
     padding: 6px;
     padding-left: 10px;
     padding-right: 10px;
@@ -124,25 +500,30 @@ body {
     align-items: center;
     justify-content: space-between;
   }
-  #navbar {
+
+  #nav-menu {
     margin: auto;
     width: 100%;
     /* border: 2px solid rgb(0, 255, 110); */
   }
+
   .theme {
     display: flex;
     font-size: 21px;
     /* border: 2px solid rgb(255, 0, 0); */
 
   }
+
   #query1 {
     font-size: 18px;
     display: flex;
     margin-top: -3px;
   }
+
   .display {
     display: none;
   }
+
   #chetan {
     font-size: 24px;
     /* padding-top: 1%; */
@@ -151,15 +532,15 @@ body {
     font-weight: 800;
   }
 
-  #mid {
+  /* /* #mid {
     flex-direction: column-reverse;
     width: 370px;
     gap: 40px;
     margin-top: 30px;
     margin-left: 10px;
-  }
+  } */
 
-  #mid>img {
+  /* #mid>img {
     margin: auto;
     width: 230px;
     height: 230px;
@@ -177,9 +558,8 @@ body {
   #mid>div>h3 {
     font-size: 28px;
     margin-top: -22px;
-  }
- 
-  #social {
+  } */
+  */ #social {
     display: none;
     font-size: 16px;
   }
@@ -217,13 +597,16 @@ body {
     color: black;
     padding: 5%;
   }
-  #toogle>div{
+
+  #toogle>div {
     margin-top: 60px;
   }
- #toogle>div>a>img{
-  width: 40px;
-  height: 40px;
- }
+
+  #toogle>div>a>img {
+    width: 40px;
+    height: 40px;
+  }
+
   #toogle.show {
     left: 0;
   }
@@ -236,14 +619,12 @@ body {
   #toogle a:hover,
   #toogle i:hover {
     color: red;
-    /* background-color: yellow; */
+   
   }
-  #active{
+
+  #active {
     margin-top: 30px;
   }
 
 
-}
-body{
-  margin: 0;
 }

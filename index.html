@@ -12,58 +12,275 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" />
     <script src="https://code.jquery.com/jquery-3.6.3.js"></script>
     <script>
-        $(document).ready(function(){
-            $("#query1").click(function(){
-               $("#toogle").toggleClass("show")
+        $(document).ready(function () {
+            $("#query1").click(function () {
+                $("#toogle").toggleClass("show")
             })
         })
     </script>
 </head>
 
 <body>
-    <div id="navbar">
+    <div id="nav-menu">
         <div>
             <snam id="query1" class="bw"><i class="fa-solid fa-bars"></i></snam>
-            <a id="chetan" href="index.html"> <span style="color:black" class="bw">CHETAN</span><span style="color:red">
+            <a id="chetan" href="#home"> <span style="color:black" class="bw">CHETAN</span><span style="color:red">
                     BHAGAT</span></a>
             <a class="theme bw"><i class="fa-solid fa-moon"></i></a>
         </div>
         <div>
-            <a class="tab bw display" href="index.html">HOME</a>
-            <a class="bw display" href="ABOUT.html">ABOUT</a>
-            <a class="bw display" href="SKILLS.html">SKILLS</a>
-            <a class="bw display" href="PROJECTS.html">PROJECTS</a>
-            <a class="bw display" href="CONTACT.html">CONTACT</a>
+            <a class="tab bw display" href="#home">HOME</a>
+            <a class="bw display" href="#about">ABOUT</a>
+            <a class="bw display" href="#skills">SKILLS</a>
+            <a class="bw display" href="#projects">PROJECTS</a>
+            <a class="bw display" href="#contact">CONTACT</a>
+            <a class="bw display" href="#resume">RESUME</a>
             <a class="bw theme1 display  "><i class="fa-solid fa-moon"></i></a>
         </div>
     </div>
     <div id="toogle">
-        <a id="active" href="index.html"><i class="fa-solid fa-house"></i> HOME</a>
-        <a href="ABOUT.html"><i class="fa-sharp fa-solid fa-circle-info"></i> ABOUT</a>
-        <a href="SKILLS.html"><i class="fa-solid fa-medal"></i> SKILLS</a>
-        <a href="PROJECTS.html"><i class="fa-solid fa-briefcase"></i> PROJECTS</a>
-        <a href="CONTACT.html"><i class="fa-solid fa-address-card"></i> CONTACT</a>
-        <div> <a href="https://www.linkedin.com/in/chetan-bhagat-5002081ba/" target="_blank"><img src="./Images/linkedin.png"></a><a href="https://github.com/Chetan-bhagat" target="_blank"><img src="./Images/github.png"></a><a href="https://www.instagram.com/invites/contact/?i=157ja011sp5rv&utm_content=22vwk4e" target="_blank"><img src="./Images/instagram.png"></a></div>
+        <a id="active" href="#home"><i class="fa-solid fa-house"></i> HOME</a>
+        <a href="#about"><i class="fa-sharp fa-solid fa-circle-info"></i> ABOUT</a>
+        <a href="#skills"><i class="fa-solid fa-medal"></i> SKILLS</a>
+        <a href="#projects"><i class="fa-solid fa-briefcase"></i> PROJECTS</a>
+        <a href="#contact"><i class="fa-solid fa-address-card"></i> CONTACT</a>
+        <div> <a href="https://www.linkedin.com/in/chetan-bhagat-5002081ba/" target="_blank"><img
+                    src="./Images/linkedin.png"></a><a href="https://github.com/Chetan-bhagat" target="_blank"><img
+                    src="./Images/github.png"></a><a
+                href="https://www.instagram.com/invites/contact/?i=157ja011sp5rv&utm_content=22vwk4e"
+                target="_blank"><img src="./Images/instagram.png"></a></div>
     </div>
-    <div id="mid">
-        <div>
-            <h2 class="bw"> Hello, My name is</h2>
-            <h1 style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; " class="bw">Chetan Bhagat
-            </h1>
-            <h3 class="bw"> I am <spam id="auto1" style="color:red"></spam>
-            </h3>
-            <a href="ABOUT.html"><button>About</button></a>
+    <section id="home">
+        <div class="home">
+            <div>
+                <h2 class="bw"> Hello, My name is</h2>
+                <h1 style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; " class="bw">Chetan Bhagat
+                </h1>
+                <h3 class="bw"> I am <spam id="auto1" style="color:red"></spam>
+                </h3>
+                <a href="#about"><button>About</button></a>
+            </div>
+            <img class="home-img" src="./Images/passport.jpg"></img>
         </div>
-        <img src="./Images/passport.jpg"></img>
-    </div>
-    <div id="social">
-        <a href="https://www.linkedin.com/in/chetan-bhagat-5002081ba/" target="_blank"><i class="fa-brands fa-linkedin">
-            </i> </a>
-        <a href="https://github.com/Chetan-bhagat" target="_blank"><i class="fa-brands fa-github"> </i></a>
-        <a href="https://www.instagram.com/invites/contact/?i=157ja011sp5rv&utm_content=22vwk4e" target="_blank"><i class="fa-brands fa-instagram"></i>
-        </a>
-    </div>
+        <div id="social">
+            <a href="https://www.linkedin.com/in/chetan-bhagat-5002081ba/" target="_blank"><i
+                    class="fa-brands fa-linkedin">
+                </i> </a>
+            <a href="https://github.com/Chetan-bhagat" target="_blank"><i class="fa-brands fa-github"> </i></a>
+            <a href="https://www.instagram.com/invites/contact/?i=157ja011sp5rv&utm_content=22vwk4e" target="_blank"><i
+                    class="fa-brands fa-instagram"></i>
+            </a>
+        </div>
+    </section>
+    <!-- ************ABOUT*********** -->
+    <section id="about">
+        <div class="nav-link about">
+            <h1 class="bw">About<spam style="color: red;"> Me</spam>
+            </h1>
+            <p class="bw">Here you will find more information about me, what I do, and my current skills and past
+                experience.</p>
+        </div>
+        <div id="about_mid">
+            <div id="avt">
+                <img src="./Images/mf-avatar.svg">
+                <img src="./Images/hero-devices.svg">
+            </div>
+            <div class="bw" id="aboutme">
+                <h2>About my myself!</h2>
+                <li>Hello! My name is Chetan Bhagat. I am a graduate engineer having 1.5+ years of industry experience.
+                    Now
+                    a passionate developer, having strong administrative and communication skills. </li>
+                <li>I have completed the full stack Development course in Masai (Skilling platform) with immense 1200+
+                    coding and industry level projects.</li>
+                <h2>About my experience!</h2>
+                <h6>
+                    Organization: <a class="bw" href="https://eclerx.com/" target="_blank"> eClerx</a> from: March 2021
+                    to March 2022
+                </h6>
+                <h4>Designation: Analyst</h4>
+                <li>Data Visualization and data milling by using different data visualization tools. </li>
+                <li>Provide technical consulting to the customer category managers around the
+                    industry best practices of product data enhancement by using different tools. </li>
+                <li>Data enrichment, profing and reporting.</li>
+                <h6>
+                    Organization: <a class="bw" href="https://www.capgemini.com/" target="_blank">Capgemini</a> from:
+                    March 2022 to Oct 2022
+                </h6>
+                <h4>Designation : Associate Software Engineer I</h4>
+                <li>Training over the basic JavaScript Programming, NOSQL and database.</li>
 
+
+            </div>
+        </div>
+
+    </section>
+    <section id="skills">
+        <div class="nav-link skills">
+            <h1 style=" font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;text-align: center; margin-top: 50px;"
+                class="bw"> My <spam style="color: red;"> Technical </spam>Skills</h1>
+            <p class="bw" style=" font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;text-align: center">Below
+                are
+                the skills which I have conquered from my past journey.</p>
+        </div>
+
+        <div class="skills-card">
+            <div>
+                <img class="skills-card-img" src="./Images/html.png"></img>
+                <p  class="skills-card-name">HTML</p>
+            </div>
+            <div>
+                <img class="skills-card-img" src="./Images/scc.png"></img>
+                <p  class="skills-card-name">CSS</p>
+            </div>
+            <div>
+                <img class="skills-card-img" src="./Images/javascript.png"></img>
+                <p class="skills-card-name">JavaScript</p>
+            </div>
+            <div>
+                <img class="skills-card-img" src="./Images/react.png"></img>
+                <p class="skills-card-name">Node JS</p>
+            </div>
+            <div>
+                <img class="skills-card-img" src="./Images/express.png"></img>
+                <p class="skills-card-name">Express</p>
+            </div>
+            <div>
+                <img class="skills-card-img" src="./Images/Mongo.avif"></img>
+                <p class="skills-card-name">Mongo DB</p>
+            </div>
+            <div>
+                <img class="skills-card-img" src="./Images/mongoose.png"></img>
+                <p class="skills-card-name">Mongoose</p>
+            </div>
+            <div>
+                <img class="skills-card-img" src="./Images/git.png"></img>
+                <p class="skills-card-name">Git</p>
+            </div>
+            <div>
+                <img class="skills-card-img" src="./Images/postman2.png"></img>
+                <p class="skills-card-name">postman</p>
+            </div>
+        </div>
+    </section>
+    <section id="projects">
+        <div class="nav-link projects">
+            <h1 class="bw"
+                style=" font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;text-align: center; margin-top: 50px;">
+                My
+                <spam style="color: red;"> Creative </spam>Works & Projects
+            </h1>
+            <p class="bw" style=" font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;text-align: center">Below
+                are
+                some projects which I have built in the past.</p>
+        </div>
+
+        <div id="mid_projects">
+            <div class="project-card">
+                <div><img id="slide1" src="./Images/project3.png"></div>
+                <div>
+                    <h3 class="project-title">Green Basket</h3>
+                    <p class="project-description">Description :<spam id="des"> This project is the clone of e-commers
+                            web
+                            site
+                            know as <b>Big Basket</b> . The main objective
+                            is to explore the CRUD operations and <b>Backend</b>.
+                    </p>
+                    <p class="project-tech-stack"><span class="techred">Tech Stack:</span> HTML | CSS |
+                        JavaScript |
+                        Node JS | Express | Mongodb Atlas | Mongoose</p>
+                </div>
+                <div><a class="project-deployed-link" href="https://green-basketapp.netlify.app/"
+                        target="_blank"><Button><i class="fa-solid fa-arrow-up-right-from-square"></i> Live</Button></a>
+                    <a class="project-github-link" href="https://github.com/Chetan-bhagat/savvy-kettle_788"
+                        target="_blank"><Button>
+                            <i class="fa-brands fa-github"></i> GitHub</Button></a>
+                </div>
+            </div>
+            <div class="project-card">
+                <div> <img id="slide2" src="./Images/project2.png"></div>
+                <div>
+                    <h3 class="project-title">My Potfolio</h3>
+                    <p class="project-description">Description :<spam id="des"> This project is my own <b>Potfolio</b>
+                            website. In
+                            this
+                            website I mainly focued
+                            on CSS and tried to give unique look on the site, the repository is private to keep the code
+                            unique.</spam>
+                    </p>
+                    <p class="project-tech-stack"><span class="techred">Tech Stack:</span> HTML| CSS | JavaScript </p>
+                </div>
+                <div><a class="project-deployed-link" href="#home" target="_blank"><Button><i
+                                class="fa-solid fa-arrow-up-right-from-square"></i>
+                            Live</Button></a>
+                    <a class="project-github-link" href="https://github.com/Chetan-bhagat" target="_blank"><Button>
+                            <i class="fa-brands fa-github"></i> GitHub</Button></a>
+                </div>
+
+            </div>
+            <div class="project-card">
+                <div><img id="slide3" src="./Images/project1.png"></div>
+                <div>
+                    <h3 class="project-title">Shoper Korner</h3>
+                    <p class="project-description">Description :<spam id="des"> This project is the clone of e-commers
+                            web
+                            site
+                            know as <b>GearBest</b> .The website build with five members & objective is to understand
+                            the
+                            <b>frontend</b>.
+                        </spam>
+                    </p>
+                    <p class="project-tech-stack"><span class="techred">Tech Stack:</span> HTML| CSS | JavaScript </p>
+                </div>
+                <div><a class="project-deployed-link" href="https://dreamy-starlight-fddfa8.netlify.app/"
+                        target="_blank"><Button><i class="fa-solid fa-arrow-up-right-from-square"></i>
+                            Live</Button></a>
+                    <a class="project-github-link" href="https://github.com/suhail3535/Indigo-railway-8753"
+                        target="_blank"><Button>
+                            <i class="fa-brands fa-github"></i> GitHub</Button></a>
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+    <section id="contact">
+        <div class="nav-link contact">
+            <h1 class="bw"
+                style=" font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;text-align: center; margin-top: 50px;">
+                Be
+                <spam style="color: red;">In Touch</spam> With <spam style="color: red;"> Me</spam>
+            </h1>
+            <p class="bw" style=" font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;text-align: center">Be
+                Well,
+                Do Good Work &
+                Keep In Touch.</p>
+        </div>
+        <div id="mid_contact">
+            <div><img src="./Images/contact.svg"></div>
+            <div id="input">
+                <div id="buttons"> <a href="https://www.linkedin.com/in/chetan-bhagat-5002081ba/"
+                        target="_blank"><button><i class="fa-brands fa-linkedin"></i> Linkedln </button></a> <a
+                        href="https://github.com/Chetan-bhagat" target="_blank"><button><i
+                                class="fa-brands fa-github"></i>
+                            GitHub</button></a><a href="https://mail.google.com/mail/u/0/?tab=mm#inbox"
+                        target="_blank"><button><i class="fa-solid fa-envelope"></i> Mail</button></a></div>
+                <div id="form">
+                    <form>
+                        <input type="text" id="name" placeholder="Full Name">
+                        <input type="email" id="mail" placeholder="Your Mail">
+                        <input type="tel" id="mono" placeholder="Your Mobile Number">
+                        <input type="submit" id="submit" value="Click to Submit">
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section >
+    <section id=resume>
+
+    </section>
+    <div id="foot">
+        <p>@Copyright 2022. Made by <a href="index.html" style="color: white;">Chetan Bhagat</a></p>
+    </div>
     <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12">
 
     </script>
