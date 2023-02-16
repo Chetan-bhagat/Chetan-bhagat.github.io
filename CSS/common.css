@@ -95,17 +95,10 @@ body {
   margin-top: 5.2px;
 }
 
-#query1 {
+#query1,.theme ,#toogle{
   display: none;
 }
 
-#toogle {
-  display: none;
-}
-
-.theme {
-  display: none;
-}
 .about{
   text-align: center;
 }
@@ -294,9 +287,9 @@ padding-top: 40px;
 
 /**************************PROJECT********************/
 #projects{
-  margin-top: 200px;
+  margin-top: 60px;
   background-color: white;
-  padding:0px 0px 50px 0px ;
+  padding:0px 0px 50px 0px;
 }
 #projects>div:nth-child(1){
 padding-top: 5px;

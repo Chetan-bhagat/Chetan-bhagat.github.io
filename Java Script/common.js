@@ -1,3 +1,14 @@
+GitHubCalendar(".calendar", "Chetan-bhagat");
+
+// or enable responsive functionality:
+GitHubCalendar(".calendar", "Chetan-bhagat", { responsive: true });
+
+// Use a proxy
+GitHubCalendar(".calendar", "Chetan-bhagat", {
+   proxy (username) {
+     return fetch(`https://your-proxy.com/github?user=${Chetan-bhagat}`)
+   }
+}).then(r => r.text())
 let theme=document.querySelector(".theme") 
 let theme1= document.querySelector(".theme1");
 let themeslip=1;
