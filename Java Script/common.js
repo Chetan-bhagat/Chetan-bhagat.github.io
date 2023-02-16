@@ -51,7 +51,7 @@ if(themeslip%2==0){
     tabs.forEach((item)=>{
         item.style.color="white"
       });
-    theme1.innerHTML=`<i class="fa-solid fa-sun" style="color:rgb(232, 211, 26)"></i>`;
+    theme1.innerHTML=`<i class="fa-solid fa-sun" ></i>`;
     toogle.style.backgroundColor="rgb(18, 29, 48)";
     toogleAll.forEach((item)=>{
         item.style.color="white"
