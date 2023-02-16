@@ -6,7 +6,7 @@ body {
 
 #nav-menu {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
   align-items: center;
   height: 60px;
   padding: 5px 0px 4px 0px;
@@ -26,11 +26,11 @@ body {
 #nav-menu>div:nth-child(2)>a {
   text-decoration: none;
   color: black;
-  padding: 12px;
+  padding: 10px;
   font-size: 17px;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   border-radius: 15px;
-  margin-left: 15px;
+  margin-left: 10px;
   transition: all 0.3s ease-in-out;
 }
 
@@ -47,12 +47,13 @@ body {
 }
 
 #nav-menu>div:nth-child(1) {
-  padding: 0px 20px 0px 20px;
+  padding: 0px 10px 0px 10px;
   font-size: 40px;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif, 'Arial Narrow', Arial, sans-serif;
 }
 
 #nav-menu>div:nth-child(2) {
+  margin-left: 300px;
   display: flex;
   justify-content: space-between;
 }
@@ -106,9 +107,7 @@ body {
   text-align: center;
 }
 /* ***********************HOME CSS*******************/
-#home{
-  height: 100%;
-}
+
 .home{
   display: flex;
   justify-content: space-evenly;
@@ -142,24 +141,26 @@ body {
   font-size:35px ;
   margin-top: -30px;
 }
-.home>div>a>button{
+
+.home>div>div>a>button{
   background-color: red;
   padding: 8px;
   color: white;
   border: 0ch;
   font-size: large;
   border-radius: 10px;
+  margin-right: 20px;
+  height: 40px;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  transition: all ease-in-out 0.3s;
 }
-.home>div>a>button{
+.home>div>div>a>button{
   color: white;
   text-decoration: none;
   
 }
-.home>div>a>button:hover{
-  padding: 8px 9px 8px 9px;
-  font-size: 20px;
-  color: red;
+.home>div>div>a>button:hover{
+  /* font-size: 20px; */
   background-color: whitesmoke;
   color: red;
   border: 2px solid red;
@@ -174,6 +175,9 @@ body {
 
 
 /* *******************ABOUT CSS*****************/
+#about{
+  margin-top: 200px;
+}
 #heading {
   margin: auto;
   margin-top: 50px;
