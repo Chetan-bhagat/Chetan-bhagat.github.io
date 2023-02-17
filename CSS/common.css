@@ -256,9 +256,9 @@ padding-top: 40px;
 #aboutme>h6>a:hover {
   color: teal;
 }
-.about{
+/* .about{
   margin-top: 10px;
-}
+} */
 /* *******************ABOUT CSS END*********************/
 
 /*******************SKILLS*********************/
@@ -537,7 +537,7 @@ padding-top: 5px;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   text-align: center;
 }
-#github-top-langs>img{
+#gitlanguage>img{
   display: flex;
   margin: auto;
   margin-bottom: 50px;
