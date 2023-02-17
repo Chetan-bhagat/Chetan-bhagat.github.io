@@ -2,6 +2,8 @@ body {
   /* background-color:#121d30; */
   margin: 0;
   background-color: rgb(234, 246, 249);
+  /* background-image: url(''); */
+  background-size: contain;
 }
 
 #nav-menu {
@@ -14,9 +16,6 @@ body {
   top: 0;
   right: 0;
   background-color: rgb(234, 246, 249);
-  /* box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px; */
-
-
 }
 
 #chetan {
@@ -115,6 +114,7 @@ body {
 .abouts{
   text-align: center;
 }
+
 /* ***********************HOME CSS*******************/
 
 .homes{
@@ -506,7 +506,9 @@ padding-top: 5px;
   box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
 } */
 /* *******************CONTACT END****************** */
-
+#projects{
+  background-color: white;
+}
 /* ******FOOTER*********** */
 #foot {
   text-decoration: none;
@@ -521,7 +523,25 @@ padding-top: 5px;
 }
 
 /* ////media Query */
-
+#gitall{
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 95%;
+  margin: auto;
+}
+#gitall>img:hover{
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.react-activity-calendar>h1{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;
+}
+#github-top-langs>img{
+  display: flex;
+  margin: auto;
+  margin-bottom: 50px;
+}
 @media screen and (min-width:0px) and (max-width:480px) {
   #social {
    top: 250px;

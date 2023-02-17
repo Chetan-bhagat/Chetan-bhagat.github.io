@@ -37,8 +37,8 @@ theme1.addEventListener("click",function(event){
 });
 themeslip=sessionStorage.getItem("theme")||0;
 if(themeslip%2==0){
-    about.style.backgroundColor="rgb(234, 246, 249)";
-    project.style.backgroundColor="rgb(234, 246, 249)";
+    about.style.backgroundColor="white";
+    project.style.backgroundColor="white";
     bodys.style.backgroundColor="rgb(234, 246, 249)";
     nav.style.backgroundColor="rgb(234, 246, 249)";
     theme1.innerHTML=`<i class="fa-solid fa-moon"></i>`;
