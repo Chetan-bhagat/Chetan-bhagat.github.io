@@ -9,7 +9,9 @@
 //      return fetch(`https://your-proxy.com/github?user=${Chetan-bhagat}`)
 //    }
 // })
-
+function downloadresume(){
+    window.open("https://drive.google.com/drive/folders/1Y2SeLoGQG90y3e-DMdpMWb_BXFOapuuJ?usp=sharing");
+}
 let theme=document.querySelector(".theme");
 let theme1= document.querySelector(".theme1");
 let themeslip=1;
