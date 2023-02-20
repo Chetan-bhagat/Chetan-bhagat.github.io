@@ -36,6 +36,13 @@ body {
 #resume-button-1{
   background-color: rgb(234, 246, 249);
 }
+#resume-link-2{
+  color: white;
+}
+a{
+  text-decoration: none;
+  color: black;
+}
 #nav-menu>div:nth-child(2)>a:nth-child(7) {
   display: flex;
   align-items: center;
