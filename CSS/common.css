@@ -2,8 +2,8 @@ body {
   /* background-color:#121d30; */
   margin: 0;
   background-color: rgb(234, 246, 249);
-  /* background-image: url(''); */
-  background-size: contain;
+  /* background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQDzI6iEOblPhpcFh6CwVVRG6cmX_JKLysfug&usqp=CAU'); */
+  /* background-size: contain; */
 }
 
 #nav-menu {
@@ -22,7 +22,7 @@ body {
   text-decoration: none;
 }
 
-#nav-menu>div:nth-child(2)>a {
+#nav-menu>div:nth-child(2)>a,#resume-button-1 {
   text-decoration: none;
   color: black;
   padding: 8px;
@@ -31,6 +31,10 @@ body {
   border-radius: 15px;
   margin-left: 10px;
   transition: all 0.3s ease-in-out;
+  border: 0px;
+}
+#resume-button-1{
+  background-color: rgb(234, 246, 249);
 }
 #nav-menu>div:nth-child(2)>a:nth-child(7) {
   display: flex;
@@ -46,6 +50,11 @@ body {
 #nav-menu>div:nth-child(2)>a:nth-child(4):hover,
 #nav-menu>div:nth-child(2)>a:nth-child(5):hover,
 #nav-menu>div:nth-child(2)>a:nth-child(6):hover {
+  color: white;
+  background-color: red;
+}
+#resume-button-1:hover{
+  border: 0ch;
   color: white;
   background-color: red;
 }
@@ -151,7 +160,7 @@ body {
   margin-top: -30px;
 }
 
-.home>div>div>a>button{
+.home>div>div>a>button,#resume-button-2{
   background-color: red;
   padding: 8px;
   color: white;
