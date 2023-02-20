@@ -60,7 +60,7 @@ a{
   color: white;
   background-color: red;
 }
-#resume-button-1:hover{
+#resume-button-1:hover ,#resume-link-1:hover{
   border: 0ch;
   color: white;
   background-color: red;
