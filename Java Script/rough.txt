@@ -1,0 +1,7 @@
+ <li> <a class="tab blackwhite display nav-link home" href="#home">HOME</a></li>
+                <li><a class="blackwhite display nav-link about" href="#about">ABOUT</a> </li>
+                <li> <a class="blackwhite display nav-link skills" href="#skills">SKILLS</a></li>
+                <li><a class="blackwhite display nav-link projects" href="#projects">PROJECTS</a></li>
+                <li><a class="blackwhite display nav-link contact" href="#contact">CONTACT</a></li>
+                <li><button id="resume-button-1" class="nav-link resume"><a id="resume-link-1" href="./Download/Chetan_Bhagat_Resume.pdf">RESUME <i  class="fa-regular fa-circle-down"></i></a></button></li>
+                <li><a class="blackwhite theme1 display  "><i class="fa-solid fa-moon"></i></a></li>
