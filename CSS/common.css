@@ -571,9 +571,9 @@ padding-top: 5px;
   margin: auto;
   margin-bottom: 50px;
 }
-@media screen and (min-width:0px) and (max-width:480px) {
+@media screen and (min-width:0px) and (max-width:400px) {
   #social {
-   top: 250px;
+   top: 450px;
   }
 
   #social>a:hover {
