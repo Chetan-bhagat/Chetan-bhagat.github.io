@@ -42,6 +42,7 @@ body {
   margin-left: 10px;
   transition: all 0.3s ease-in-out;
   border: 0px;
+  padding: 0px;
   background-color: rgb(234, 246, 249);
 }
 #resume-link-1{
