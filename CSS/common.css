@@ -22,7 +22,7 @@ body {
   text-decoration: none;
 }
 
-#nav-menu>div:nth-child(2)>a,#resume-button-1 {
+#nav-menu>div:nth-child(2)>a{
   text-decoration: none;
   color: black;
   padding: 8px;
@@ -34,7 +34,24 @@ body {
   border: 0px;
 }
 #resume-button-1{
+  text-decoration: none;
+  color: black;
+  font-size: 17px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  border-radius: 15px;
+  margin-left: 10px;
+  transition: all 0.3s ease-in-out;
+  border: 0px;
   background-color: rgb(234, 246, 249);
+}
+#resume-link-1{
+  padding: 10px;
+  border-radius: 15px;
+}
+#resume-link-1:hover {
+  border: 0ch;
+  color: white;
+  background-color: red;
 }
 #resume-link-2{
   color: white;
@@ -60,11 +77,7 @@ a{
   color: white;
   background-color: red;
 }
-#resume-button-1:hover ,#resume-link-1:hover{
-  border: 0ch;
-  color: white;
-  background-color: red;
-}
+
 #nav-menu>div:nth-child(2)>a:nth-child(7):hover {
   color: white;
 }
@@ -123,7 +136,7 @@ a{
   margin-top: 5.2px;
 }
 
-#query1,.theme ,#toogle{
+#togglebar,.theme ,#toogle{
   display: none;
 }
 
@@ -184,13 +197,13 @@ a{
   text-decoration: none;
   
 }
-.home>div>div>a>button:hover{
+/* .home>div>div>a>button:hover,#resume-button-2{
   /* font-size: 20px; */
-  background-color: whitesmoke;
-  color: red;
+  /* /* background-color: whitesmoke; */
+  /* color: red;
   border: 2px solid red;
 
-}
+}  */ */
 .home>div>button>a:hover{
   color: red;
 }
@@ -587,11 +600,10 @@ padding-top: 5px;
   .theme {
     display: flex;
     font-size: 21px;
-    /* border: 2px solid rgb(255, 0, 0); */
-
+    border: 2px solid rgb(255, 0, 0);
   }
 
-  #query1 {
+  #togglebar {
     font-size: 18px;
     display: flex;
     margin-top: -3px;
