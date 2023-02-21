@@ -21,7 +21,7 @@
 // let project = document.querySelector("#projects");
 // let about = document.querySelector("#about");
 // // let nighttheme=document.querySelector(".theme");
-// let bar = document.querySelector("#togglebar");
+// let bar = document.querySelector("#query1");
 // let toogle = document.querySelector("#toogle");
 // let toogleAll = document.querySelectorAll("#toogle>a");
 // bar.addEventListener("click", () => {
