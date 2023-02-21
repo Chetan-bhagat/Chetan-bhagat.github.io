@@ -431,9 +431,9 @@ padding-top: 5px;
 
 
 }
-#mid_contact>div{
+/* #mid_contact>div{
   /* border: 1px solid rgb(255, 0, 102); */
-}
+/* } */ 
 #input {
   width: 400px;
   box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
