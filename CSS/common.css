@@ -573,25 +573,25 @@ padding-top: 5px;
 }
 @media screen and (min-width:0px) and (max-width:400px) {
   #social {
-   top: 450px;
+   top: 550px;
   }
-
   #social>a:hover {
     display: none;
   }
-
   #nav-menu>div:nth-child(1) {
     padding: 6px;
     padding-left: 10px;
     padding-right: 10px;
     display: flex;
-    /* border: 2px solid blue; */
+    border: 2px solid blue;
     width: 100%;
     height: 60px;
     align-items: center;
     justify-content: space-between;
   }
-
+  .theme1{
+    display: none;
+  }
   #nav-menu {
     margin: auto;
     width: 100%;
