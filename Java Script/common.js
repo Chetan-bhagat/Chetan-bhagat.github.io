@@ -19,8 +19,8 @@ let project = document.querySelector("#projects");
 let about = document.querySelector("#about");
 // let nighttheme=document.querySelector(".theme");
 let bar = document.querySelector("#query1");
-let toogle = document.querySelector("#toogle");
-let toogleAll = document.querySelectorAll("#toogle>a");
+// let toogle = document.querySelector("#toogle");
+// let toogleAll = document.querySelectorAll("#toogle>a");
 bar.addEventListener("click", () => {
     if (bar.innerHTML == `<i class="fa-solid fa-bars"></i>`) {
         bar.innerHTML = `<i class="fa-solid fa-xmark"></i>`
@@ -41,7 +41,7 @@ if (themeslip % 2 == 0) {
     bodys.style.backgroundColor = "rgb(234, 246, 249)";
     nav.style.backgroundColor = "rgb(234, 246, 249)";
     theme1.innerHTML = `<i class="fa-solid fa-moon"></i>`;
-    toogle.style.backgroundColor = "rgb(234, 246, 249)"
+    // toogle.style.backgroundColor = "rgb(234, 246, 249)"
 } else {
     about.style.backgroundColor = "rgb(18, 29, 48)";
     project.style.backgroundColor = "rgb(18, 29, 48)";
@@ -51,10 +51,10 @@ if (themeslip % 2 == 0) {
         item.style.color = "white"
     });
     theme1.innerHTML = `<i class="fa-solid fa-sun" ></i>`;
-    toogle.style.backgroundColor = "rgb(18, 29, 48)";
-    toogleAll.forEach((item) => {
-        item.style.color = "white"
-    });
+    // toogle.style.backgroundColor = "rgb(18, 29, 48)";
+    // toogleAll.forEach((item) => {
+    //     item.style.color = "white"
+    // });
 
 };
 theme.addEventListener("click", function (event) {
@@ -68,7 +68,7 @@ if (themeslip % 2 == 0) {
     bodys.style.backgroundColor = "rgb(234, 246, 249)";
     nav.style.backgroundColor = "rgb(234, 246, 249)";
     theme.innerHTML = `<i class="fa-solid fa-moon"></i>`;
-    toogle.style.backgroundColor = "rgb(234, 246, 249)"
+    // toogle.style.backgroundColor = "rgb(234, 246, 249)"
 } else {
     bodys.style.backgroundColor = "rgb(18, 29, 48)";
     nav.style.backgroundColor = "rgb(18, 29, 48)";
@@ -76,10 +76,10 @@ if (themeslip % 2 == 0) {
         item.style.color = "white"
     });
     theme.innerHTML = `<i class="fa-solid fa-sun"></i>`;
-    toogle.style.backgroundColor = "rgb(18, 29, 48)";
-    toogleAll.forEach((item) => {
-        item.style.color = "white"
-    });
+    // toogle.style.backgroundColor = "rgb(18, 29, 48)";
+    // toogleAll.forEach((item) => {
+    //     item.style.color = "white"
+    // });
 
 };
 
