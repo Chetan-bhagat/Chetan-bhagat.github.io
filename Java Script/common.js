@@ -9,7 +9,7 @@ document.getElementById('resume-link-1').addEventListener("click",()=>{
   })
 
 
-let theme = document.querySelector(".theme");
+// let theme = document.querySelector(".theme");
 let theme1 = document.querySelector(".theme1");
 let themeslip = 1;
 let bodys = document.querySelector("body");
@@ -17,7 +17,6 @@ let nav = document.querySelector("#nav-menu");
 let tabs = document.querySelectorAll(".blackwhite");
 let project = document.querySelector("#projects");
 let about = document.querySelector("#about");
-// let nighttheme=document.querySelector(".theme");
 let bar = document.querySelector("#query1");
 // let toogle = document.querySelector("#toogle");
 // let toogleAll = document.querySelectorAll("#toogle>a");
@@ -57,17 +56,17 @@ if (themeslip % 2 == 0) {
     // });
 
 };
-theme.addEventListener("click", function (event) {
-    themeslip++;
-    sessionStorage.setItem("theme", themeslip);
-    themeslip = sessionStorage.getItem("theme") || 0;
-    location.reload()
-});
+// theme.addEventListener("click", function (event) {
+//     themeslip++;
+//     sessionStorage.setItem("theme", themeslip);
+//     themeslip = sessionStorage.getItem("theme") || 0;
+//     location.reload()
+// });
 themeslip = sessionStorage.getItem("theme") || 0;
 if (themeslip % 2 == 0) {
     bodys.style.backgroundColor = "rgb(234, 246, 249)";
     nav.style.backgroundColor = "rgb(234, 246, 249)";
-    theme.innerHTML = `<i class="fa-solid fa-moon"></i>`;
+    // theme.innerHTML = `<i class="fa-solid fa-moon"></i>`;
     // toogle.style.backgroundColor = "rgb(234, 246, 249)"
 } else {
     bodys.style.backgroundColor = "rgb(18, 29, 48)";
@@ -75,7 +74,7 @@ if (themeslip % 2 == 0) {
     tabs.forEach((item) => {
         item.style.color = "white"
     });
-    theme.innerHTML = `<i class="fa-solid fa-sun"></i>`;
+    // theme.innerHTML = `<i class="fa-solid fa-sun"></i>`;
     // toogle.style.backgroundColor = "rgb(18, 29, 48)";
     // toogleAll.forEach((item) => {
     //     item.style.color = "white"
