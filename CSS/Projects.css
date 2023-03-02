@@ -1,8 +1,0 @@
-
-@media screen and (min-width:0px) and (max-width:480px) {
-  #collection {
-    display: grid;
-    grid-template-columns: repeat(1, 1fr);
-  }
-
-}

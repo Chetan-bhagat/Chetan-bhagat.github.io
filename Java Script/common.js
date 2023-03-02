@@ -1,3 +1,15 @@
+GitHubCalendar(".calendar", "Chetan-bhagat");
+
+// or enable responsive functionality:
+GitHubCalendar(".calendar", "Chetan-bhagat", { responsive: true });
+
+// Use a proxy
+// GitHubCalendar(".calendar", "Chetan-bhagat", {
+//    proxy (username) {
+//      return fetch(`https://your-proxy.com/github?user=${username}`)
+//    }
+// }).then(r => r.text());
+
 document.getElementById('resume-link-1').addEventListener("click",()=>{
     // console.log("OPENinig.....")
     window.location.assign("https://drive.google.com/drive/folders/1Y2SeLoGQG90y3e-DMdpMWb_BXFOapuuJ?usp=share_link", "_blank");
@@ -91,8 +103,19 @@ function imgflip() {
     if (i == img.length) {
         i = 0
     }
-}
-let y = setInterval(imgflip2, 3300);
+};
+let A = setInterval(imgflip4, 3000);
+let a = 0;
+function imgflip4() {
+    let img = ["./Images/project4.png", "./Images/slide42.png", "./Images/slide43.png", "./Images/slide44.png"]
+    document.querySelector("#slide4").setAttribute("src", img[i]);
+    a++;
+    if (a == img.length) {
+        a = 0
+    }
+};
+
+let y = setInterval(imgflip2, 4000);
 let j = 0;
 function imgflip2() {
     let img = ["./Images/project2.png", "./Images/slide21.png", "./Images/slide22.png"]
