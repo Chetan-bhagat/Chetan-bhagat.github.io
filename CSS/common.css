@@ -19,7 +19,7 @@ body {
   text-decoration: none;
 }
 
-#nav-menu>div:nth-child(2)>a{
+#nav-menu>div:nth-child(2)>a {
   text-decoration: none;
   color: black;
   padding: 8px;
@@ -30,7 +30,8 @@ body {
   transition: all 0.3s ease-in-out;
   border: 0px;
 }
-#resume-button-1{
+
+#resume-button-1 {
   text-decoration: none;
   color: black;
   font-size: 17px;
@@ -42,22 +43,27 @@ body {
   padding: 0px;
   background-color: rgb(234, 246, 249);
 }
-#resume-link-1{
+
+#resume-link-1 {
   padding: 10px;
   border-radius: 15px;
 }
+
 #resume-link-1:hover {
   border: 0ch;
   color: white;
   background-color: red;
 }
-#resume-link-2{
+
+#resume-link-2 {
   color: white;
 }
-a{
+
+a {
   text-decoration: none;
   color: black;
 }
+
 #nav-menu>div:nth-child(2)>a:nth-child(7) {
   display: flex;
   align-items: center;
@@ -66,6 +72,7 @@ a{
   padding: 0px 12px 0px 12px;
   background-color: rgb(107, 198, 251);
 }
+
 #nav-menu>div:nth-child(2)>a:nth-child(1):hover,
 #nav-menu>div:nth-child(2)>a:nth-child(2):hover,
 #nav-menu>div:nth-child(2)>a:nth-child(3):hover,
@@ -79,6 +86,7 @@ a{
 #nav-menu>div:nth-child(2)>a:nth-child(7):hover {
   color: white;
 }
+
 #nav-menu>div:nth-child(1) {
   padding: 0px 10px 0px 10px;
   font-size: 40px;
@@ -125,51 +133,58 @@ a{
   margin-top: 5.2px;
 }
 
-#query1,#toogle{
+#query1,
+#toogle {
   display: none;
 }
 
-.abouts{
+.abouts {
   text-align: center;
 }
 
 /* ***********************HOME CSS*******************/
 
-.homes{
+.homes {
   display: flex;
   justify-content: space-evenly;
   margin: auto;
   margin-top: 115px;
 }
 
-.home-img{
-  width:230px;
+.home-img {
+  width: 230px;
   height: 220px;
   border-radius: 50%;
   transition: all 0.5s ease-in-out;
 }
-.home-img:hover{
-  width:250px;
+
+.home-img:hover {
+  width: 250px;
   height: 250px;
 
 }
-.home>div{
+
+.home>div {
   font-family: 'Bahnschrift SemiBold';
   padding: 1%;
 }
-.home>div>h2{
+
+.home>div>h2 {
   font-size: 25px;
 }
-.home>div>h1{
-  font-size:60px ;
+
+.home>div>h1 {
+  font-size: 60px;
   margin-top: -11px;
 }
-.home>div>h3{
-  font-size:35px ;
+
+.home>div>h3 {
+  font-size: 35px;
   margin-top: -30px;
 }
 
-.home>div>div>a>button,#resume-button-2{
+.home>div>div>a>button,
+#resume-button-2 {
   background-color: red;
   padding: 8px;
   color: white;
@@ -181,19 +196,21 @@ a{
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   transition: all ease-in-out 0.3s;
 }
-.home>div>div>a>button{
+
+.home>div>div>a>button {
   color: white;
   text-decoration: none;
-  
+
 }
+
 /* .home>div>div>a>button:hover,#resume-button-2{
   /* font-size: 20px; */
-  /* /* background-color: whitesmoke; */
-  /* color: red;
+/* /* background-color: whitesmoke; */
+/* color: red;
   border: 2px solid red;
 
-}  */ */
-.home>div>button>a:hover{
+}  */
+*/ .home>div>button>a:hover {
   color: red;
 }
 
@@ -202,20 +219,21 @@ a{
 
 
 /* *******************ABOUT CSS*****************/
-#about{
+#about {
   margin-top: 200px;
   background-color: white;
 }
-#about>div:nth-child(1){
-padding-top: 40px;
+
+#about>div:nth-child(1) {
+  padding-top: 40px;
 }
 
-#heading {
+/* #heading {
   margin: auto;
   margin-top: 50px;
   text-align: center;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
+} */
 
 #about_mid {
   display: flex;
@@ -257,12 +275,14 @@ padding-top: 40px;
   margin-bottom: -15px;
 
 }
-#aboutme>h6{
- font-size: 15px;
+
+#aboutme>h6 {
+  font-size: 15px;
 }
 
 #aboutme>h2 {
-  color: orange;
+  color: red;
+  font-size: 20px;
 }
 
 #aboutme>h6>a {
@@ -271,9 +291,11 @@ padding-top: 40px;
   margin-left: 5px;
   margin-right: 5px;
 }
+
 #aboutme>h6>a:hover {
   color: teal;
 }
+
 /* .about{
   margin-top: 10px;
 } */
@@ -300,7 +322,8 @@ padding-top: 40px;
   background-color: snow;
   padding: 12px 0 0 0;
   border-radius: 20px;
-  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;}
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
 
 .skills-card>div:hover {
   box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
@@ -316,14 +339,16 @@ padding-top: 40px;
 /*******************SKILLS ENDS*********************/
 
 /**************************PROJECT********************/
-#projects{
+#projects {
   margin-top: 60px;
   background-color: white;
-  padding:0px 0px 50px 0px;
+  padding: 0px 0px 50px 0px;
 }
-#projects>div:nth-child(1){
-padding-top: 5px;
+
+#projects>div:nth-child(1) {
+  padding-top: 5px;
 }
+
 #mid_projects {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -345,7 +370,8 @@ padding-top: 5px;
   padding: 8px;
 
 }
-#mid_projects>div>div:nth-child(2){
+
+#mid_projects>div>div:nth-child(2) {
   padding: 10px;
   height: 200px;
 }
@@ -371,19 +397,21 @@ padding-top: 5px;
   color: red;
 }
 
-.techred{
+.techred {
   font-size: 15px;
   color: rgb(245, 21, 21);
   font-weight: 700
 }
-.techs{
+
+.techs {
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   font-size: 14px;
   font-weight: 200;
   text-align: left;
   text-align: justify;
 }
-#mid_projects>div>div:nth-child(3){
+
+#mid_projects>div>div:nth-child(3) {
   width: 70%;
   display: flex;
   align-items: center;
@@ -392,19 +420,20 @@ padding-top: 5px;
   margin-bottom: 10px;
 }
 
-#mid_projects>div>div:nth-child(3)>a:nth-child(1)>button{
+#mid_projects>div>div:nth-child(3)>a:nth-child(1)>button {
   border: 0cm;
   color: white;
   padding: 7px;
   border-radius: 3px;
- background-color: teal;
+  background-color: teal;
 }
-#mid_projects>div>div:nth-child(3)>a:nth-child(2)>button{
+
+#mid_projects>div>div:nth-child(3)>a:nth-child(2)>button {
   border: 0cm;
   color: white;
   padding: 7px;
   border-radius: 3px;
- background-color: rgb(18, 18, 18);
+  background-color: rgb(18, 18, 18);
 }
 
 /* **************************PROJECT END************* *
@@ -421,22 +450,27 @@ padding-top: 5px;
 
 
 }
+
 #input {
   width: 400px;
   box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+  border: 1px solid white;
   height: 320px;
-  border-radius:10px ;
+  border-radius: 10px;
 }
-#input>h1{
+
+#input>h1 {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   text-decoration: underline;
   color: red;
 }
-.mydetails{
+
+.mydetails {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   font-size: 18px;
   color: rgb(70, 66, 66);
 }
+
 #mid_contact img {
   width: 90%;
   height: 90%;
@@ -454,6 +488,7 @@ padding-top: 5px;
   justify-content: space-between;
 
 }
+
 #buttons>a>button {
   color: white;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -493,9 +528,10 @@ padding-top: 5px;
 }
 
 /* *******************CONTACT END****************** */
-#projects{
+#projects {
   background-color: white;
 }
+
 /* ******FOOTER*********** */
 #foot {
   text-decoration: none;
@@ -510,230 +546,625 @@ padding-top: 5px;
 }
 
 /* ////media Query */
-#gitall{
-  display:flex;
+#gitall {
+  display: flex;
   justify-content: space-between;
   align-items: center;
   width: 95%;
   margin: auto;
 }
-#gitall>img:hover{
+
+#gitall>img:hover {
   box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
-.react-activity-calendar>h1{
+
+.react-activity-calendar>h1 {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   text-align: center;
 }
-#gitlanguage>img{
+
+#gitlanguage>img {
   display: flex;
   margin: auto;
   margin-bottom: 50px;
 }
 
 @media screen and (min-width:400px) and (max-width:560px) {
+   /* *{
+    border: 1px solid green;
+  } */
+  #nav-menu>div:nth-child(2) {
+    display: none;
+    flex-direction: column;
+    position: fixed;
+    top: 55px;
+  }
+  #nav-menu>div:nth-child(2)>a{
+    color: white;
+    padding: 8px;
+    font-size: 14px;
+    text-align: center;
+    margin-top: 12px;
+    margin-bottom: 12px;
+    border-radius: 6px;
+    background-color: red;
+  }
+  #nav-menu>div:nth-child(2)>a:nth-child(1):hover,
+  #nav-menu>div:nth-child(2)>a:nth-child(2):hover,
+  #nav-menu>div:nth-child(2)>a:nth-child(3):hover,
+  #nav-menu>div:nth-child(2)>a:nth-child(4):hover,
+  #nav-menu>div:nth-child(2)>a:nth-child(5):hover,
+  #nav-menu>div:nth-child(2)>a:nth-child(6):hover {
+    pointer-events: none;
+  }
   #social {
-   /* top: 550px; */
-   display: none;
-   /* font-size: 16px; */
-  }
-  #nav-menu>div:nth-child(2)>a:nth-child(7) {
-    display: flex;
-    align-items: center;
-    color: rgb(45, 44, 44);
-    border-radius: 10%;
-    padding: 0px 3px 0px 3px;
-    background-color: rgb(31, 33, 34);
-  }
-  #nav-menu{
-    border: 2px solid rgb(255, 166, 0);
-  }
-  #nav-menu>div:nth-child(1) {
-    width: 100%;
-    padding: 6px;
-    padding-left: 10px;
-    padding-right: 10px;
-    display: flex;
-    border: 2px solid blue;
-    width: 100%;
-    height: 60px;
-    align-items: center;
-    justify-content: space-between;
-  }
-  #query1{
-    font-size: 18px;
-    display: flex;
-    margin-top: -3px;
-  }
-  #chetan {
-    font-size: 24px;
-    font-weight: 800;
-  }
-  .display {
     display: none;
   }
-}
-@media screen and (min-width:0px) and (max-width:400px) {
-  *{
-    border: 1px solid green;
-  }
-  #social {
-   display: none;
-  }
+
   #chetan {
     font-size: 24px;
-    font-weight: 800;
     margin-left: 10px;
   }
+
+  #nav-menu {
+    height: 50px;
+
+  }
+
   #nav-menu>div:nth-child(2)>a:nth-child(7) {
-    display: flex;
-    align-items: center;
     color: rgb(235, 232, 232);
-    border-radius: 50%;
-    padding: 4px 8px 4px 8px;
-    background-color: rgb(72, 165, 211);
+    font-size: 15px;
+    margin: auto  ;
+    padding: 8px;
   }
+
   #nav-menu>div:nth-child(1) {
-    width: 100%;
-    padding: 6px;
-    padding-left: 10px;
-    padding-right: 10px;
     display: flex;
-    width: 100%;
-    height: 60px;
+    width: 98%;
+    height: 50px;
     align-items: center;
   }
-  #query1{
+
+  #query1 {
     font-size: 18px;
     display: flex;
     margin-top: -3px;
   }
+
   .display {
     display: none;
   }
+
   /* ****NAV END**** */
 
   /* *****HOME****** */
-  .homes{
+  #home {
+    height: auto;
+  }
+
+  #about-resume>a:nth-child(1) {
+    display: none;
+  }
+
+  .homes {
     display: flex;
     justify-content: space-evenly;
     margin: auto;
-    margin-top: 65px;
+    width: 98%;
+    margin-top: 55px;
+    align-items: center;
+    height: auto;
   }
-  
-  .home-img{
-    width:230px;
-    height: 220px;
-    border-radius: 50%;
-    transition: all 0.5s ease-in-out;
+
+  .home-img {
+    width: 38%;
+    height: 130px;
   }
-  .home-img:hover{
-    width:250px;
-    height: 250px;
-  
+
+  .home-img:hover {
+    width: 38%;
+    height: 130px;
   }
-  .home>div{
-    font-family: 'Bahnschrift SemiBold';
+
+  .home>div {
+    width: 70%;
     padding: 1%;
+    margin-left: 10px;
+    /* border: 2px solid rgb(203, 188, 224); */
+
   }
-  .home>div>h2{
-    font-size: 25px;
+
+  .home>div>h2 {
+    font-size: 20px;
+    margin: 0px;
   }
-  .home>div>h1{
-    font-size:60px ;
-    margin-top: -11px;
+
+  .home>div>h1 {
+    font-size: 40px;
+    margin: 0px;
   }
-  .home>div>h3{
-    font-size:35px ;
-    margin-top: -30px;
+
+  .home>div>h3 {
+    font-size: 18px;
+    margin-top: 10px;
+    margin-bottom: 20px;
   }
-  
-  .home>div>div>a>button,#resume-button-2{
+
+  .home>div>div>a>button,
+  #resume-button-2 {
     background-color: red;
-    padding: 8px;
+    padding: 6px;
     color: white;
     border: 0ch;
-    font-size: large;
-    border-radius: 10px;
+    font-size: 14px;
+    border-radius: 5px;
     margin-right: 20px;
-    height: 40px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    transition: all ease-in-out 0.3s;
+    height: auto;
   }
-  .home>div>div>a>button{
+
+  .home>div>div>a>button {
     color: white;
     text-decoration: none;
-    
-  }
-  .home>div>button>a:hover{
-    color: red;
+
   }
 
-  /* ***ABOUT** */
-  #avt>img:nth-child(2){
-    display: none;
+  .home>div>button>a:hover {
+    color: white;
+    text-decoration: none;
   }
-  #mid>div {
-    padding: 0px;
-    width: 100%;
+  
+  /* ***ABOUT** */
+  #about {
+    /* border: 2px solid red; */
+
+    margin-top: 50px;
+    background-color: white;
+    padding-top: 1px;
+    padding-bottom: 10px;
+  }
+
+  #about>div:nth-child(1) {
+    padding-top: 0px;
+    margin: auto;
+  }
+
+  #about_mid {
+    margin: auto;
+    width: 90%;
+    display: flex;
+    margin-top: 20px;
+    justify-content: space-evenly;
+    margin-bottom: 25px;
+  }
+
+  #about_mid>div {
+    width: auto;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   }
-  #mid{
-    padding: 0px;
-    width: 200px;
-    display: block;
-    margin-left: 0px;
-  }
-  #avt {
-    padding: 0px;
-    width: 10%;
-    justify-content: center;
 
+  #aboutme>h6 {
+    font-size: 14px;
+    margin-top: 8px;
   }
-  #aboutme>h6{
-    font-size: 15px;
-   }
-  #aboutme{
-    padding: 0px; 
-    width: 10%;
-    margin-left: 0px;
+
+  #aboutme>li {
+    font-size: 14px;
   }
-  /* ***Skills** */
+
+  #aboutme>h2 {
+    color: red;
+    font-size: 18px;
+  }
+
+  #aboutme>h4 {
+    font-size: 14px;
+    margin-top: -15px;
+  }
+
+  #avt {
+    display: none;
+  }
+
+  /*******************SKILLS*********************/
   .skills-card {
-    margin-top: 50px;
-    width: 90%;
     grid-template-columns: repeat(3, 1fr);
-    gap: 20px;
-    margin-bottom: 50px;
+    margin-bottom: 10px;
   }
+
   .skills-card p {
-    font-size: 11x;
+    font-size: 13x;
   }
+
   .skills-card>div {
-    text-align: center;
-    background-color: snow;
-    padding: 12px 0 0 0;
-    border-radius: 20px;
-    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;}
-  
-  .skills-card-name{
-    margin-top: 10px;
+    padding: 10px 0 0 0;
+    border-radius: 15px;
   }
-  
+
   .skills-card>div>img {
-    width: 60px;
-    height: 60px;
+    width: 80px;
+    height: 80px;
   }
-  
+
+  /*******************SKILLS ENDS*********************/
+
   /* ****PROJECTS*** */
 
-  #projects{
+  #projects {
     margin-top: 60px;
     background-color: white;
-    padding:0px 0px 50px 0px;
+    padding: 0px 0px 50px 0px;
   }
-  #projects>div:nth-child(1){
-  padding-top: 5px;
+
+  #projects>div:nth-child(1) {
+    padding-top: 5px;
   }
+
+  #mid_projects {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  #mid_projects {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 15px;
+    width: 92%;
+  }
+  
+  #mid_projects>div {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    height: auto;
+    border: 1px solid red;
+    padding: 8px;
+  
+  }
+  
+  #mid_projects>div>div:nth-child(2) {
+    padding: 5px;
+    height: auto;
+    border: 1px solid red;
+  }
+  
+  #mid_projects>div>div>img {
+    width: 100%;
+    height: 150px;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+  }
+  
+  #des {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 13px;
+  }
+  
+  #mid_projects>div>a:hover {
+    font-size: 18px;
+    color: red;
+  }
+  
+  .techred {
+    font-size: 14px;
+    color: rgb(245, 21, 21);
+    font-weight: 700
+  }
+  
+  .techs {
+    font-size: 12px;
+  }
+  #project-title{
+    margin: 0px;
+  }
+  #mid_projects>div>div:nth-child(3) {
+    width: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: auto;
+    margin-bottom: 5px;
+  }
+  /* *******CONTACT******/
+
+  #mid_contact {
+    display: flex;
+    flex-direction: column-reverse;
+    width: 95%;
+    margin: auto;
+    margin-top: 10px;
+    height: auto;
+
+  }
+
+  #input {
+    width: 90%;
+    margin: auto;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 10px;
+  }
+
+  #buttons>a>button {
+    padding: 8px;
+    font-size: 14px;
+    margin-bottom: 20px;
+  }
+
+
+  #mid_contact img {
+    display: none;
+  }
+
+  #gitall {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 95%;
+    margin: auto;
+  }
+
+  #gitall>img {
+    width: 80%;
+  }
+
+  #gitall>img:hover {
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  }
+
+  .react-activity-calendar>h1 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    font-size: 20px;
+  }
+
+  #gitlanguage>img {
+    width: 70%;
+    display: flex;
+    margin: auto;
+    margin-bottom: 50px;
+  }
+
+}
+
+@media screen and (min-width:0px) and (max-width:400px) {
+
+  /* *{
+    border: 1px solid green;
+  } */
+  #nav-menu>div:nth-child(2) {
+    display: none;
+    flex-direction: column;
+    /* border: 1px solid red; */
+    /* background-color: black;  */
+    position: fixed;
+    top: 55px;
+  }
+  #nav-menu>div:nth-child(2)>a{
+    color: white;
+    padding: 8px;
+    font-size: 14px;
+    text-align: center;
+    margin-top: 12px;
+    margin-bottom: 12px;
+    border-radius: 6px;
+    background-color: red;
+  }
+  #nav-menu>div:nth-child(2)>a:nth-child(1):hover,
+  #nav-menu>div:nth-child(2)>a:nth-child(2):hover,
+  #nav-menu>div:nth-child(2)>a:nth-child(3):hover,
+  #nav-menu>div:nth-child(2)>a:nth-child(4):hover,
+  #nav-menu>div:nth-child(2)>a:nth-child(5):hover,
+  #nav-menu>div:nth-child(2)>a:nth-child(6):hover {
+    pointer-events: none;
+  }
+
+  #theme1 {
+    display: none;
+  }
+
+  #social {
+    display: none;
+  }
+
+  #chetan {
+    font-size: 24px;
+    margin-left: 10px;
+  }
+
+  #nav-menu {
+    height: 50px;
+
+  }
+
+  #nav-menu>div:nth-child(2)>a:nth-child(7) {
+    color: rgb(235, 232, 232);
+    font-size: 15px;
+    margin: auto  ;
+    padding: 8px;
+  }
+
+  #nav-menu>div:nth-child(1) {
+
+    display: flex;
+    width: 100%;
+    height: 50px;
+    align-items: center;
+  }
+
+  #query1 {
+    font-size: 18px;
+    display: flex;
+    margin-top: -3px;
+  }
+
+  .display {
+    display: none;
+  }
+
+  /* ****NAV END**** */
+
+  /* *****HOME****** */
+  #home {
+    height: auto;
+  }
+
+  #about-resume>a:nth-child(1) {
+    display: none;
+  }
+
+  .homes {
+    display: flex;
+    justify-content: space-evenly;
+    margin: auto;
+    width: 98%;
+    margin-top: 55px;
+    align-items: center;
+    height: auto;
+  }
+
+  .home-img {
+    width: 38%;
+    height: 130px;
+  }
+
+  .home-img:hover {
+    width: 38%;
+    height: 130px;
+  }
+
+  .home>div {
+    width: 70%;
+    padding: 1%;
+    margin-left: 10px;
+    /* border: 2px solid rgb(203, 188, 224); */
+
+  }
+
+  .home>div>h2 {
+    font-size: 18px;
+    margin: 0px;
+  }
+
+  .home>div>h1 {
+    font-size: 30px;
+    margin: 0px;
+  }
+
+  .home>div>h3 {
+    font-size: 15px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+  }
+
+  .home>div>div>a>button,
+  #resume-button-2 {
+    background-color: red;
+    padding: 6px;
+    color: white;
+    border: 0ch;
+    font-size: 12px;
+    border-radius: 5px;
+    margin-right: 20px;
+    height: auto;
+  }
+
+  .home>div>div>a>button {
+    color: white;
+    text-decoration: none;
+
+  }
+
+  .home>div>button>a:hover {
+    color: white;
+    text-decoration: none;
+  }
+  
+  /* ***ABOUT** */
+  #about {
+    /* border: 2px solid red; */
+
+    margin-top: 50px;
+    background-color: white;
+    padding-top: 1px;
+    padding-bottom: 10px;
+  }
+
+  #about>div:nth-child(1) {
+    padding-top: 0px;
+
+    margin: auto;
+  }
+
+  #about_mid {
+    margin: auto;
+    width: 90%;
+    display: flex;
+    margin-top: 20px;
+    justify-content: space-evenly;
+    margin-bottom: 25px;
+  }
+
+  #about_mid>div {
+    width: auto;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+
+  #aboutme>h6 {
+    font-size: 14px;
+    margin-top: 8px;
+  }
+
+  #aboutme>li {
+    font-size: 14px;
+  }
+
+  #aboutme>h2 {
+    color: red;
+    font-size: 18px;
+  }
+
+  #aboutme>h4 {
+    font-size: 14px;
+    margin-top: -15px;
+  }
+
+  #avt {
+    display: none;
+  }
+
+  /*******************SKILLS*********************/
+  .skills-card {
+    grid-template-columns: repeat(2, 1fr);
+    margin-bottom: 10px;
+  }
+
+  .skills-card p {
+    font-size: 13x;
+  }
+
+  .skills-card>div {
+    padding: 10px 0 0 0;
+    border-radius: 15px;
+  }
+
+  .skills-card>div>img {
+    width: 80px;
+    height: 80px;
+  }
+
+  /*******************SKILLS ENDS*********************/
+
+  /* ****PROJECTS*** */
+
+  #projects {
+    margin-top: 60px;
+    background-color: white;
+    padding: 0px 0px 50px 0px;
+  }
+
+  #projects>div:nth-child(1) {
+    padding-top: 5px;
+  }
+
   #mid_projects {
     grid-template-columns: repeat(1, 1fr);
   }
@@ -742,82 +1173,62 @@ padding-top: 5px;
 
   #mid_contact {
     display: flex;
+    flex-direction: column-reverse;
     width: 95%;
     margin: auto;
-    margin-top: 50px;
-    height: 500px;
-  
-  }
-  #input {
-    width: 400px;
-    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
-    height: 320px;
-    border-radius:10px ;
-  }
-  #input>h1{
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    text-decoration: underline;
-    color: red;
-  }
-  .mydetails{
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 18px;
-    color: rgb(70, 66, 66);
-  }
-  #mid_contact img {
-    width: 90%;
-    height: 90%;
-    margin-left: 100px;
-  
-  }
-  
-  #mid_contact>div {
-    padding: 10px;
-  }
-  
-  #buttons {
-    display: flex;
-    margin-top: 40px;
-    justify-content: space-between;
-  
-  }
-  #buttons>a>button {
-    color: white;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    border: 0ch;
-    padding: 7px 12px 7px 12px;
-    border-radius: 3px;
-    font-size: 16px;
-  
-  }
-  
-  #buttons>a:nth-child(1)>button {
-    background-color: rgb(32, 167, 220);
-  }
-  
-  #buttons>a:nth-child(1)>button:hover {
-    background-color: rgb(123, 145, 234);
-    transition: 0.2s ease-in-out;
-  
-  }
-  
-  #buttons>a:nth-child(2)>button {
-    background-color: black
-  }
-  
-  #buttons>a:nth-child(2)>button:hover {
-    background-color: brown;
-    transition: 0.2s ease-in-out;
-  }
-  
-  #buttons>a:nth-child(3)>button {
-    background-color: red;
-  }
-  
-  #buttons>a:nth-child(3)>button:hover {
-    background-color: rgb(254, 48, 116);
-    transition: 0.2s ease-in-out;
+    margin-top: 10px;
+    height: auto;
+
   }
 
-  
-};
+  #input {
+    width: 90%;
+    margin: auto;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 10px;
+  }
+
+  #buttons>a>button {
+    padding: 8px;
+    font-size: 14px;
+    margin-bottom: 20px;
+  }
+
+
+  #mid_contact img {
+    display: none;
+  }
+
+  #gitall {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 95%;
+    margin: auto;
+  }
+
+  #gitall>img {
+    width: 80%;
+  }
+
+  #gitall>img:hover {
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  }
+
+  .react-activity-calendar>h1 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    font-size: 20px;
+  }
+
+  #gitlanguage>img {
+    width: 70%;
+    display: flex;
+    margin: auto;
+    margin-bottom: 50px;
+  }
+
+
+}

@@ -24,6 +24,8 @@ document.getElementById('resume-link-1').addEventListener("click",()=>{
 // let theme = document.querySelector(".theme");
 let theme1 = document.querySelector(".theme1");
 let themeslip = 1;
+let display=document.querySelectorAll(".display2");
+let mang=document.querySelector("#nav-menu>div:nth-child(2)")
 let bodys = document.querySelector("body");
 let nav = document.querySelector("#nav-menu");
 let tabs = document.querySelectorAll(".blackwhite");
@@ -35,9 +37,21 @@ let bar = document.querySelector("#query1");
 bar.addEventListener("click", () => {
     if (bar.innerHTML == `<i class="fa-solid fa-bars"></i>`) {
         bar.innerHTML = `<i class="fa-solid fa-xmark"></i>`
+        for(let i=0;i<display.length;i++){
+            display[i].style.display="inline"
+        }
+        theme1.style.display="block"
+        mang.style.display="flex"
     } else {
         bar.innerHTML = `<i class="fa-solid fa-bars"></i>`
+        for(let i=0;i<display.length;i++){
+            display[i].style.display="none";
+        }
+        theme1.style.display="none"
+        mang.style.display="none"
     }
+    
+
 });
 theme1.addEventListener("click", function (event) {
     themeslip++;

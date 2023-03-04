@@ -15,7 +15,7 @@
     <script>
         $(document).ready(function () {
             $("#query1").click(function () {
-                $("#toogle").toggleClass("show")
+                $(".display").toggleClass("show")
             })
         })
     </script>
@@ -31,17 +31,17 @@
                     BHAGAT</span></a>
             <!-- <a class="theme blackwhite"><i class="fa-solid fa-moon"></i></a> -->
 
-        </div>
+        </div >
         <div>
-            <a class="nav-link home blackwhite display" class="tab " href="#home">HOME</a>
-            <a class="nav-link about blackwhite display" href="#about">ABOUT</a>
-            <a class="nav-link skills blackwhite display" href="#skills">SKILLS</a>
-            <a class="nav-link projects blackwhite display" href="#projects">PROJECTS</a>
-            <a class="nav-link contact blackwhite display" href="#contact">CONTACT</a>
-            <button id="resume-button-1" class="nav-link resume display display"><a id="resume-link-1"
+            <a class="nav-link home blackwhite display  display2" class="tab " href="#home">HOME</a>
+            <a class="nav-link about blackwhite display display2" href="#about">ABOUT</a>
+            <a class="nav-link skills blackwhite display display2" href="#skills">SKILLS</a>
+            <a class="nav-link projects blackwhite display display2" href="#projects">PROJECTS</a>
+            <a class="nav-link contact blackwhite display display2" href="#contact">CONTACT</a>
+            <button id="resume-button-1" class="nav-link resume display"><a id="resume-link-1"
                     href="./Download/Chetan_Bhagat_Resume.pdf" download="Chetan_Bhagat_Resume"> RESUME <i
                         class="fa-regular fa-circle-down"></i></a></button>
-            <a class="blackwhite theme1  "><i class="fa-solid fa-moon"></i></a>
+            <a class="blackwhite theme1"><i class="fa-solid fa-moon"></i></a>
         </div>
     </div>
     <!-- *********NEV MENU END******** -->
@@ -76,7 +76,8 @@
     <!-- ************ABOUT*********** -->
     <section id="about" class="about section">
         <div class="section abouts">
-            <h1 class="blackwhite">About<spam style="color: red;"> Me</spam>
+            <h1 style=" font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;text-align: center; margin-top: 50px;"
+                class="blackwhite">About<spam style="color: red;"> Me</spam>
             </h1>
             <p class="blackwhite">Here you will find more information about me, what I do, and my current skills and
                 past
@@ -295,16 +296,17 @@
                 <p class="mydetails blackwhite" id="contact-phone"><i class="fa-solid fa-phone"></i> +91-9168100103</p>
 
                 <div id="buttons"> <a id="contact-linkedin" href="https://www.linkedin.com/in/chetan-bhagat-5002081ba/"
-                        target="_blank"><button><i class="fa-brands fa-linkedin"></i> Linkedln </button></a> <a
-                        href="https://github.com/Chetan-bhagat" id="contact-github" target="_blank"><button><i
-                                class="fa-brands fa-github"></i>
-                            GitHub</button></a><a id="contact-email"
+                        target="_blank"><button><i class="fa-brands fa-linkedin"></i> Linkedln </button></a>
+                         <a href="https://github.com/Chetan-bhagat" id="contact-github" target="_blank"><button><i
+                                class="fa-brands fa-github"></i> GitHub</button></a><a id="contact-email"
                         href="https://mail.google.com/mail/u/0/?tab=mm#inbox" target="_blank"><button><i
-                                class="fa-solid fa-envelope"></i> Mail</button></a></div>
+                                class="fa-solid fa-envelope"></i> Mail</button></a>
+                    </div>
 
             </div>
             <div id="github-stats-card github-top-langs github-streak-stats" class=".react-activity-calendar"><img
-                    src="./Images/contact.svg"></div>
+                    src="./Images/contact.svg">
+            </div>
 
         </div>
     </section>
