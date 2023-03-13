@@ -151,3 +151,8 @@ function imgflip3() {
     }
 }
 
+
+let loader=document.querySelector("#loading")
+function loadkar() {
+    loader.style.display = "none"
+}

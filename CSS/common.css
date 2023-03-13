@@ -1,8 +1,18 @@
 body {
   margin: 0;
   background-color: rgb(234, 246, 249);
-}
 
+}
+/* *************LOADING**************** */
+#loading{
+  position: fixed;
+  width: 100%;
+  height: 100vh;
+  background: #fff url("https://i.pinimg.com/originals/6b/e0/89/6be0890f52e31d35d840d4fe2e10385b.gif")
+  no-repeat center;
+  z-index: 999999;
+}
+/* **********NAVBAR************* */
 #nav-menu {
   display: flex;
   justify-content: space-between;
@@ -17,6 +27,7 @@ body {
 
 #chetan {
   text-decoration: none;
+  margin-left: 10px;
 }
 
 #nav-menu>div:nth-child(2)>a {
@@ -170,11 +181,11 @@ a {
 }
 
 .home>div>h2 {
-  font-size: 25px;
+  font-size: 26px;
 }
 
 .home>div>h1 {
-  font-size: 60px;
+  font-size: 62px;
   margin-top: -11px;
 }
 
@@ -222,10 +233,14 @@ a {
 #about {
   margin-top: 200px;
   background-color: white;
+  padding-bottom: 20px;
+
 }
 
-#about>div:nth-child(1) {
-  padding-top: 40px;
+.abouts {
+  padding: 1px;
+  /* margin-top: 40px; */
+  /* border: 2px solid white; */
 }
 
 /* #heading {
@@ -373,7 +388,7 @@ a {
 
 #mid_projects>div>div:nth-child(2) {
   padding: 10px;
-  height: 200px;
+  height: 220px;
 }
 
 #mid_projects>div:hover {
@@ -440,22 +455,23 @@ a {
 
 
 /* ******************CONTACT ********************** */
+/* *{
+  border: 0.5px solid red;
+} */
 #mid_contact {
   display: flex;
   /* justify-content: space-evenly; */
   width: 95%;
   margin: auto;
   margin-top: 50px;
-  height: 500px;
-
-
+  height: auto;
 }
 
 #input {
   width: 400px;
   box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
   border: 1px solid white;
-  height: 320px;
+  height: 75%;
   border-radius: 10px;
 }
 
@@ -467,13 +483,14 @@ a {
 
 .mydetails {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  font-size: 18px;
+  font-size: 18px;margin-top: 30px;
   color: rgb(70, 66, 66);
 }
 
 #mid_contact img {
-  width: 90%;
+  width: 80%;
   height: 90%;
+  border-radius: 5px;
   margin-left: 100px;
 
 }
@@ -483,8 +500,10 @@ a {
 }
 
 #buttons {
+  margin: auto;
+  width: 88%;
   display: flex;
-  margin-top: 40px;
+  margin-top: 30px;
   justify-content: space-between;
 
 }
@@ -569,7 +588,7 @@ a {
   margin-bottom: 50px;
 }
 
-@media screen and (min-width:400px) and (max-width:560px) {
+@media screen and (min-width:400px) and (max-width:580px) {
    /* *{
     border: 1px solid green;
   } */
@@ -602,7 +621,7 @@ a {
   }
 
   #chetan {
-    font-size: 24px;
+    font-size: 28px;
     margin-left: 10px;
   }
 
@@ -613,7 +632,7 @@ a {
 
   #nav-menu>div:nth-child(2)>a:nth-child(7) {
     color: rgb(235, 232, 232);
-    font-size: 15px;
+    font-size: 18px;
     margin: auto  ;
     padding: 8px;
   }
@@ -648,6 +667,7 @@ a {
 
   .homes {
     display: flex;
+    flex-direction: column-reverse;
     justify-content: space-evenly;
     margin: auto;
     width: 98%;
@@ -657,17 +677,20 @@ a {
   }
 
   .home-img {
-    width: 38%;
-    height: 130px;
+    width: 200px;
+    height: 160px;
+    margin-bottom: 50px;
+    
   }
 
   .home-img:hover {
-    width: 38%;
-    height: 130px;
+     width: 50%;
+    height: 160px;
+    margin-bottom: 50px;
   }
 
   .home>div {
-    width: 70%;
+    width: 80%;
     padding: 1%;
     margin-left: 10px;
     /* border: 2px solid rgb(203, 188, 224); */
@@ -675,17 +698,17 @@ a {
   }
 
   .home>div>h2 {
-    font-size: 20px;
+    font-size: 22px;
     margin: 0px;
   }
 
   .home>div>h1 {
-    font-size: 40px;
+    font-size:55px;
     margin: 0px;
   }
 
   .home>div>h3 {
-    font-size: 18px;
+    font-size: 22px;
     margin-top: 10px;
     margin-bottom: 20px;
   }
@@ -814,7 +837,7 @@ a {
     border-radius: 10px;
     box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
     height: auto;
-    border: 1px solid red;
+    /* border: 1px solid red; */
     padding: 8px;
   
   }
@@ -822,7 +845,7 @@ a {
   #mid_projects>div>div:nth-child(2) {
     padding: 5px;
     height: auto;
-    border: 1px solid red;
+    /* border: 1px solid red; */
   }
   
   #mid_projects>div>div>img {
@@ -941,9 +964,9 @@ a {
   #nav-menu>div:nth-child(2)>a{
     color: white;
     padding: 8px;
-    font-size: 14px;
+    font-size: 16px;
     text-align: center;
-    margin-top: 12px;
+    margin-top: 20px;
     margin-bottom: 12px;
     border-radius: 6px;
     background-color: red;
@@ -979,7 +1002,7 @@ a {
     color: rgb(235, 232, 232);
     font-size: 15px;
     margin: auto  ;
-    padding: 8px;
+    padding: 7px;
   }
 
   #nav-menu>div:nth-child(1) {
@@ -1013,26 +1036,29 @@ a {
 
   .homes {
     display: flex;
+    flex-direction: column-reverse;
     justify-content: space-evenly;
     margin: auto;
-    width: 98%;
+    width: 100%;
     margin-top: 55px;
     align-items: center;
     height: auto;
   }
 
   .home-img {
-    width: 38%;
-    height: 130px;
+    width: 50%;
+    height: 160px;
+    margin-bottom: 50px;
   }
 
   .home-img:hover {
-    width: 38%;
-    height: 130px;
+    width: 50%;
+    height: 140px;
+    margin-bottom: 50px;
   }
 
   .home>div {
-    width: 70%;
+    width: 80%;
     padding: 1%;
     margin-left: 10px;
     /* border: 2px solid rgb(203, 188, 224); */
@@ -1040,17 +1066,17 @@ a {
   }
 
   .home>div>h2 {
-    font-size: 18px;
+    font-size: 20px;
     margin: 0px;
   }
 
   .home>div>h1 {
-    font-size: 30px;
+    font-size: 35px;
     margin: 0px;
   }
 
   .home>div>h3 {
-    font-size: 15px;
+    font-size: 18px;
     margin-top: 10px;
     margin-bottom: 20px;
   }
@@ -1061,7 +1087,7 @@ a {
     padding: 6px;
     color: white;
     border: 0ch;
-    font-size: 12px;
+    font-size: 15px;
     border-radius: 5px;
     margin-right: 20px;
     height: auto;
