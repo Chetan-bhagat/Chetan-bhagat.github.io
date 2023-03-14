@@ -59,7 +59,7 @@ if (themeslip % 2 == 0) {
     nav.style.backgroundColor = "rgb(234, 246, 249)";
     theme1.innerHTML = `<i class="fa-solid fa-moon"></i>`;
 } else {
-    border.style.borderColor="rgb(77, 43, 55)"
+    border.style.borderColor="rgb(18, 29, 48)"
     about.style.backgroundColor = "rgb(18, 29, 48)";
     project.style.backgroundColor = "rgb(18, 29, 48)";
     bodys.style.backgroundColor = "rgb(18, 29, 48)";

@@ -134,6 +134,7 @@ a {
   position: fixed;
   top: 480px;
   left: 0px;
+  z-index: 1000;
 
 }
 
