@@ -16,7 +16,7 @@ html{
   width: 100%;
   height: 100em;
   background: #fff url("https://i.pinimg.com/originals/6b/e0/89/6be0890f52e31d35d840d4fe2e10385b.gif");
-  /* background-repeat :no-repeat; */
+  background-repeat :no-repeat;
   background-position: center;
   z-index: 999999;
 }
