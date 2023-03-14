@@ -14,9 +14,10 @@ html{
 #loading{
   position: fixed;
   width: 100%;
-  height: auto;
-  background: #fff url("https://i.pinimg.com/originals/6b/e0/89/6be0890f52e31d35d840d4fe2e10385b.gif")
-  no-repeat center;
+  height: 100em;
+  background: #fff url("https://i.pinimg.com/originals/6b/e0/89/6be0890f52e31d35d840d4fe2e10385b.gif");
+  /* background-repeat :no-repeat; */
+  background-position: center;
   z-index: 999999;
 }
 /* **********NAVBAR************* */
@@ -616,7 +617,8 @@ a {
   #nav-menu>div:nth-child(2)>a{
     color: white;
     padding: 8px;
-    font-size: 16px;
+    font-size: 18px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     text-align: center;
     margin-top: 25px;
     margin-bottom: 12px;
@@ -624,6 +626,7 @@ a {
     width: 100px;
     background-color: red;
   }
+
   
   #social {
     display: none;
@@ -657,7 +660,7 @@ a {
   #query1 {
     font-size: 18px;
     display: flex;
-    margin-top: -3px;
+    margin-left: 10px;
   }
 
   .display {
@@ -955,7 +958,18 @@ a {
     margin: auto;
     margin-bottom: 50px;
   }
-
+  #foot {
+    text-decoration: none;
+    background-color: black;
+    color: white;
+    font-size: 12px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    height: 30px;
+    width: 100%;
+  }
 }
 
 @media screen and (min-width:0px) and (max-width:400px) {
@@ -966,15 +980,14 @@ a {
   #nav-menu>div:nth-child(2) {
     display: none;
     flex-direction: column;
-    /* border: 1px solid red; */
-    /* background-color: black;  */
     position: fixed;
     top: 55px;
   }
   #nav-menu>div:nth-child(2)>a{
     color: white;
     padding: 8px;
-    font-size: 16px;
+    font-size: 18px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     text-align: center;
     margin-top: 20px;
     margin-bottom: 12px;
@@ -993,7 +1006,8 @@ a {
   }
 
   #chetan {
-    font-size: 24px;
+    font-size: 26px;
+    font-weight: 700;
     margin-left: 10px;
   }
 
@@ -1021,7 +1035,8 @@ a {
   #query1 {
     font-size: 16px;
     display: flex;
-    margin-top: -3px;
+    margin-left: 10px;
+
   }
 
   .display {
@@ -1032,7 +1047,7 @@ a {
 
   /* *****HOME****** */
   #home {
-    height: auto;
+    height: 100%;
   }
 
   #about-resume>a:nth-child(1) {
@@ -1051,19 +1066,19 @@ a {
   }
 
   .home-img {
-    width: 50%;
-    height: 160px;
+    width: 56%;
+    height: 200px;
     margin-bottom: 50px;
   }
 
   .home-img:hover {
-    width: 50%;
-    height: 140px;
+    width: 56%;
+    height: 200px;
     margin-bottom: 50px;
   }
 
   .home>div {
-    width: 80%;
+    width: 90%;
     padding: 1%;
     margin-left: 10px;
     /* border: 2px solid rgb(203, 188, 224); */
@@ -1072,17 +1087,18 @@ a {
 
   .home>div>h2 {
     font-size: 22px;
-    margin: 0px;
+    margin-top: 5px;
   }
 
   .home>div>h1 {
-    font-size: 40px;
-    margin: 0px;
+    font-size: 44px;
+    margin-top: -8px;
+    padding: 0ch;
   }
 
   .home>div>h3 {
-    font-size: 22px;
-    margin-top: 10px;
+    font-size: 24px;
+    margin-top: -12px;
     margin-bottom: 26px;
   }
 
@@ -1178,8 +1194,8 @@ a {
   }
 
   .skills-card>div>img {
-    width: 80px;
-    height: 80px;
+    width: 70px;
+    height: 70px;
   }
 
   /*******************SKILLS ENDS*********************/
@@ -1260,7 +1276,18 @@ a {
     margin: auto;
     margin-bottom: 50px;
   }
-
+  #foot {
+    text-decoration: none;
+    background-color: black;
+    color: white;
+    font-size: 12px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    height: 25px;
+    width: 100%;
+  }
 
 }
 

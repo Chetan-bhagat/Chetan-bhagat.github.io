@@ -136,19 +136,3 @@ let loader = document.querySelector("#loading")
 function loadkar() {
     loader.style.display = "none"
 }
-
-// window.addEventListener("scroll",reveal);
-
-// function reveal(){
-//     var revealall=document.querySelectorAll(".reveal");
-//     for( let i=0;i<revealall.length;i++){
-//         var windowheight=window.innerHeight;
-//         var revealtop=revealall[i].getBoundingClientRect().top;
-//         var revealpoint=150;
-//         if(revealtop<windowheight-revealpoint){
-//             revealall[i].classList.add('active')
-//         }else{
-//             revealall[i].classList.remove('active')
-//         }
-//     }
-// }
