@@ -1,56 +1,47 @@
 GitHubCalendar(".calendar", "Chetan-bhagat");
-
-// or enable responsive functionality:
 GitHubCalendar(".calendar", "Chetan-bhagat", { responsive: true });
 
-// Use a proxy
-// GitHubCalendar(".calendar", "Chetan-bhagat", {
-//    proxy (username) {
-//      return fetch(`https://your-proxy.com/github?user=${username}`)
-//    }
-// }).then(r => r.text());
 
-document.getElementById('resume-link-1').addEventListener("click",()=>{
+document.getElementById('resume-link-1').addEventListener("click", () => {
+    window.location.assign("https://drive.google.com/drive/folders/1Y2SeLoGQG90y3e-DMdpMWb_BXFOapuuJ?usp=share_link", "_blank");
+})
+
+document.getElementById('resume-link-2').addEventListener("click", () => {
     // console.log("OPENinig.....")
     window.location.assign("https://drive.google.com/drive/folders/1Y2SeLoGQG90y3e-DMdpMWb_BXFOapuuJ?usp=share_link", "_blank");
-  })
-  
-  document.getElementById('resume-link-2').addEventListener("click",()=>{
-    // console.log("OPENinig.....")
-    window.location.assign("https://drive.google.com/drive/folders/1Y2SeLoGQG90y3e-DMdpMWb_BXFOapuuJ?usp=share_link", "_blank");
-  })
+})
 
 
 // let theme = document.querySelector(".theme");
 let theme1 = document.querySelector(".theme1");
 let themeslip = 1;
-let display=document.querySelectorAll(".display2");
-let mang=document.querySelector("#nav-menu>div:nth-child(2)")
+let display = document.querySelectorAll(".display2");
+let mang = document.querySelector("#nav-menu>div:nth-child(2)")
 let bodys = document.querySelector("body");
 let nav = document.querySelector("#nav-menu");
 let tabs = document.querySelectorAll(".blackwhite");
 let project = document.querySelector("#projects");
 let about = document.querySelector("#about");
 let bar = document.querySelector("#query1");
-// let toogle = document.querySelector("#toogle");
-// let toogleAll = document.querySelectorAll("#toogle>a");
+let border=document.querySelector(".abouts");
+
 bar.addEventListener("click", () => {
     if (bar.innerHTML == `<i class="fa-solid fa-bars"></i>`) {
         bar.innerHTML = `<i class="fa-solid fa-xmark"></i>`
-        for(let i=0;i<display.length;i++){
-            display[i].style.display="inline"
+        for (let i = 0; i < display.length; i++) {
+            display[i].style.display = "inline"
         }
-        theme1.style.display="block"
-        mang.style.display="flex"
+        theme1.style.display = "block"
+        mang.style.display = "flex"
     } else {
         bar.innerHTML = `<i class="fa-solid fa-bars"></i>`
-        for(let i=0;i<display.length;i++){
-            display[i].style.display="none";
+        for (let i = 0; i < display.length; i++) {
+            display[i].style.display = "none";
         }
-        theme1.style.display="none"
-        mang.style.display="none"
+        theme1.style.display = "none"
+        mang.style.display = "none"
     }
-    
+
 
 });
 theme1.addEventListener("click", function (event) {
@@ -63,11 +54,12 @@ themeslip = sessionStorage.getItem("theme") || 0;
 if (themeslip % 2 == 0) {
     about.style.backgroundColor = "white";
     project.style.backgroundColor = "white";
+    border.style.borderColor="rgb(234, 246, 249)"
     bodys.style.backgroundColor = "rgb(234, 246, 249)";
     nav.style.backgroundColor = "rgb(234, 246, 249)";
     theme1.innerHTML = `<i class="fa-solid fa-moon"></i>`;
-    // toogle.style.backgroundColor = "rgb(234, 246, 249)"
 } else {
+    border.style.borderColor="rgb(77, 43, 55)"
     about.style.backgroundColor = "rgb(18, 29, 48)";
     project.style.backgroundColor = "rgb(18, 29, 48)";
     bodys.style.backgroundColor = "rgb(18, 29, 48)";
@@ -76,35 +68,21 @@ if (themeslip % 2 == 0) {
         item.style.color = "white"
     });
     theme1.innerHTML = `<i class="fa-solid fa-sun" ></i>`;
-    // toogle.style.backgroundColor = "rgb(18, 29, 48)";
-    // toogleAll.forEach((item) => {
-    //     item.style.color = "white"
-    // });
 
 };
-// theme.addEventListener("click", function (event) {
-//     themeslip++;
-//     sessionStorage.setItem("theme", themeslip);
-//     themeslip = sessionStorage.getItem("theme") || 0;
-//     location.reload()
-// });
+
 themeslip = sessionStorage.getItem("theme") || 0;
 if (themeslip % 2 == 0) {
     bodys.style.backgroundColor = "rgb(234, 246, 249)";
     nav.style.backgroundColor = "rgb(234, 246, 249)";
-    // theme.innerHTML = `<i class="fa-solid fa-moon"></i>`;
-    // toogle.style.backgroundColor = "rgb(234, 246, 249)"
+    
 } else {
     bodys.style.backgroundColor = "rgb(18, 29, 48)";
     nav.style.backgroundColor = "rgb(18, 29, 48)";
     tabs.forEach((item) => {
         item.style.color = "white"
     });
-    // theme.innerHTML = `<i class="fa-solid fa-sun"></i>`;
-    // toogle.style.backgroundColor = "rgb(18, 29, 48)";
-    // toogleAll.forEach((item) => {
-    //     item.style.color = "white"
-    // });
+  
 
 };
 
@@ -152,7 +130,23 @@ function imgflip3() {
 }
 
 
-let loader=document.querySelector("#loading")
+let loader = document.querySelector("#loading")
 function loadkar() {
     loader.style.display = "none"
 }
+
+// window.addEventListener("scroll",reveal);
+
+// function reveal(){
+//     var revealall=document.querySelectorAll(".reveal");
+//     for( let i=0;i<revealall.length;i++){
+//         var windowheight=window.innerHeight;
+//         var revealtop=revealall[i].getBoundingClientRect().top;
+//         var revealpoint=150;
+//         if(revealtop<windowheight-revealpoint){
+//             revealall[i].classList.add('active')
+//         }else{
+//             revealall[i].classList.remove('active')
+//         }
+//     }
+// }

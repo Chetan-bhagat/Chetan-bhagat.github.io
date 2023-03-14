@@ -9,6 +9,7 @@
     <link rel="icon" href="./Images/Chetan BHagat.png">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" />
     <link rel="stylesheet" href="https://unpkg.com/github-calendar@latest/dist/github-calendar-responsive.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="./CSS/common.css">
 
     <script src="https://code.jquery.com/jquery-3.6.3.js"></script>
@@ -25,7 +26,7 @@
     
     <div id=loading></div>
     <!-- *********NEV MENU******** -->
-    <div id="nav-menu">
+    <div id="nav-menu" data-aos="zoom-in">
         <div>
             <snam id="query1" class="blackwhite"><i class="fa-solid fa-bars"></i></snam>
             <a id="chetan" href="index.html"> <span style="color:black" class="blackwhite">CHETAN</span><span
@@ -48,7 +49,9 @@
     </div>
     <!-- *********NEV MENU END******** -->
     <section id="home">
+        
         <div class="home homes">
+            
             <div>
                 <h2 class="blackwhite" id="user-detail-name"> Hello, My name is</h2>
                 <h1 style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; " class="blackwhite">Chetan
@@ -134,39 +137,39 @@
         </div>
 
         <div class="skills-card">
-            <div>
+            <div data-aos="flip-left">
                 <img class="skills-card-img" src="./Images/html.png"></img>
                 <p class="skills-card-name ">HTML</p>
             </div>
-            <div>
+            <div data-aos="flip-left">
                 <img class="skills-card-img" src="./Images/scc.png"></img>
                 <p class="skills-card-name">CSS</p>
             </div>
-            <div>
+            <div data-aos="flip-left">
                 <img class="skills-card-img" src="./Images/javascript.png"></img>
                 <p class="skills-card-name">JavaScript</p>
             </div>
-            <div>
+            <div data-aos="flip-left">
                 <img class="skills-card-img" src="./Images/react.png"></img>
                 <p class="skills-card-name">Node JS</p>
             </div>
-            <div>
+            <div data-aos="flip-left">
                 <img class="skills-card-img" src="./Images/express.png"></img>
                 <p class="skills-card-name">Express</p>
             </div>
-            <div>
+            <div data-aos="flip-left">
                 <img class="skills-card-img" src="./Images/Mongo.avif"></img>
                 <p class="skills-card-name">Mongo DB</p>
             </div>
-            <div>
+            <div data-aos="flip-left">
                 <img class="skills-card-img" src="./Images/mongoose.png"></img>
                 <p class="skills-card-name">Mongoose</p>
             </div>
-            <div>
+            <div data-aos="flip-left">
                 <img class="skills-card-img" src="./Images/git.png"></img>
                 <p class="skills-card-name">Git</p>
             </div>
-            <div>
+            <div data-aos="flip-left">
                 <img class="skills-card-img" src="./Images/postman2.png"></img>
                 <p class="skills-card-name">Postman</p>
             </div>
@@ -186,7 +189,7 @@
         </div>
 
         <div id="mid_projects">
-            <div class="project-card">
+            <div class="project-card" data-aos="zoom-in">
                 <div><img id="slide1" src="./Images/project3.png"></div>
                 <div>
                     <h3 class="project-title" style="text-align: center;">Green Basket</h3>
@@ -207,7 +210,7 @@
                             <i class="fa-brands fa-github"></i> GitHub</Button></a>
                 </div>
             </div>
-            <div class="project-card">
+            <div class="project-card" data-aos="zoom-in">
                 <div><img id="slide4" src="./Images/project4.png"></div>
                 <div>
                     <h3 class="project-title" style="text-align: center;">Budget Tracking App</h3>
@@ -228,7 +231,7 @@
                 </div>
             </div>
 
-            <div class="project-card">
+            <div class="project-card" data-aos="zoom-in">
                 <div><img id="slide3" src="./Images/project1.png"></div>
                 <div>
                     <h3 class="project-title" style="text-align: center;">Shoper Korner</h3>
@@ -251,7 +254,7 @@
                 </div>
 
             </div>
-            <div class="project-card">
+            <div class="project-card" data-aos="zoom-in">
                 <div> <img id="slide2" src="./Images/project2.png"></div>
                 <div>
                     <h3 class="project-title" style="text-align: center;">My Potfolio</h3>
@@ -314,7 +317,8 @@
     </section>
     <section class="react-activity-calendar">
         <h1 class="blackwhite">GitHub React-Activity-Calendar</h1>
-        <div id="gitall">
+        <div id="gitall" data-aos="fade-up"
+        data-aos-duration="2000">
             <img id="github-streak-stats"
                 src="https://github-readme-streak-stats.herokuapp.com/?user=Chetan-bhagat"
                 alt="streakstat" /> <br>
@@ -324,7 +328,8 @@
                 alt="stat-card" />
         </div>
         <br>
-        <div id="gitlanguage">
+        <div id="gitlanguage" data-aos="fade-up"
+        data-aos-duration="2000">
             <img id="github-top-langs"
                 src="https://github-readme-stats.vercel.app/api/top-langs/?username=Chetan-bhagat&layout=compact"
                 alt="top_languages" />
@@ -333,7 +338,8 @@
     <section id=resume>
 
     </section>
-    <div id="calender" style="margin:auto;width:80%; margin-bottom: 50px;" class="calendar">
+    <div id="calender" style="margin:auto;width:80%; margin-bottom: 50px;" class="calendar" data-aos="fade-up"
+    data-aos-duration="2000">
         <!-- Loading stuff -->
         Loading the data just for you.
     </div>
@@ -361,3 +367,7 @@
 <script src="https://unpkg.com/github-calendar@latest/dist/github-calendar.min.js">
 </script>
 <script src="./Java Script/common.js"></script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+    AOS.init();
+  </script>
