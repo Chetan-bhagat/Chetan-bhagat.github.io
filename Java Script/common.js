@@ -24,7 +24,7 @@ let project = document.querySelector("#projects");
 let about = document.querySelector("#about");
 let bar = document.querySelector("#query1");
 let border=document.querySelector(".abouts");
-
+let resume=document.querySelector("#resume-button-1");
 bar.addEventListener("click", () => {
     if (bar.innerHTML == `<i class="fa-solid fa-bars"></i>`) {
         bar.innerHTML = `<i class="fa-solid fa-xmark"></i>`
@@ -56,6 +56,7 @@ if (themeslip % 2 == 0) {
     project.style.backgroundColor = "white";
     border.style.borderColor="rgb(234, 246, 249)"
     bodys.style.backgroundColor = "rgb(234, 246, 249)";
+    resume.style.backgroundColor = "rgb(234, 246, 249)";
     nav.style.backgroundColor = "rgb(234, 246, 249)";
     theme1.innerHTML = `<i class="fa-solid fa-moon"></i>`;
 } else {
@@ -63,6 +64,7 @@ if (themeslip % 2 == 0) {
     about.style.backgroundColor = "rgb(18, 29, 48)";
     project.style.backgroundColor = "rgb(18, 29, 48)";
     bodys.style.backgroundColor = "rgb(18, 29, 48)";
+    resume.style.backgroundColor = "rgb(18, 29, 48)";
     nav.style.backgroundColor = "rgb(18, 29, 48)";
     tabs.forEach((item) => {
         item.style.color = "white"
